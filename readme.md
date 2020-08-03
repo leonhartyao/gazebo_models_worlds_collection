@@ -1,13 +1,13 @@
-# Gazebo model collection
+# Gazebo models and worlds collection
 [![License](https://img.shields.io/badge/license-GPLv3-blue)](https://opensource.org/licenses/GPL-3.0)
-This repository contains a collection of models and worlds files for [Gazebo](http://gazebosim.org/). 
+
+This repository contains models and worlds files for [Gazebo](http://gazebosim.org/), which are collected from several public projects.
 
 ## Usage
 To use the models, the `models` directory needs to be added to the `GAZEBO_MODEL_PATH` environment variable. To do so, add the following line to the end of `~/.bashrc`:
 ```
-export GAZEBO_MODEL_PATH=<path to this repo>/models:$GAZEBO_MODEL_PATH
+export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:<path to this repo>/models
 ```
-where `<path to this repo>` should be replaced by the path of this repository.
 It is also possible to add model path in the Gazebo Client GUI.
 
 ## Preview
