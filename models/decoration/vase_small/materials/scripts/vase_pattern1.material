@@ -1,0 +1,15 @@
+material vase_pattern1
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture bronze.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

@@ -1,0 +1,15 @@
+material silver
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture silver_pattern.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

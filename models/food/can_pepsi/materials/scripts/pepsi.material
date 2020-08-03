@@ -1,0 +1,14 @@
+material pepsi
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture pepsi.jpg
+ 	scale 1 1 1
+      }
+    }
+  }
+}

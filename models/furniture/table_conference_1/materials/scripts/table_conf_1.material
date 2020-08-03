@@ -1,0 +1,15 @@
+material table_conf_1
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture table_grey.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

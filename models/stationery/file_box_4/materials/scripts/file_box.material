@@ -1,0 +1,15 @@
+material file_box
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Woven_Slate_Blue.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

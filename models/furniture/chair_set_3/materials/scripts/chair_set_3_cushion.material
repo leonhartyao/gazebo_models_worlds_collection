@@ -1,0 +1,15 @@
+material chair_set_3_cushion
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture fabric_red_dark.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

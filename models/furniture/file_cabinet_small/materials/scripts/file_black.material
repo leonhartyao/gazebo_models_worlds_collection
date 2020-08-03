@@ -1,0 +1,15 @@
+material file_black
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture metal_black_2.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

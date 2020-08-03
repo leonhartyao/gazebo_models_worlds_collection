@@ -1,0 +1,15 @@
+material sofa_set_1
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture fabric_black.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

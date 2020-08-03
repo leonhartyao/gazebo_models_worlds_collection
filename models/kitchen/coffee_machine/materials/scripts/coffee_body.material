@@ -1,0 +1,15 @@
+material coffee_body
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture black_metal.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

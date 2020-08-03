@@ -1,0 +1,15 @@
+material newspaper_2
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture news2.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

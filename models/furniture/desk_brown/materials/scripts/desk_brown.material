@@ -1,0 +1,15 @@
+material desk_brown
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture des_b.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

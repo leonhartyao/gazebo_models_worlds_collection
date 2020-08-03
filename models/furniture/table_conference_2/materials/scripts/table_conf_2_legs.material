@@ -1,0 +1,15 @@
+material table_conf_2_legs
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marble.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

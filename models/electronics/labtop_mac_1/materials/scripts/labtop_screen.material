@@ -1,0 +1,15 @@
+material labtop_screen
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture labtop_screen.png
+	scale 1 1
+      }
+    }
+  }
+}
+

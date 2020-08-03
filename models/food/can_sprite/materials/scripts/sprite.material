@@ -1,0 +1,14 @@
+material sprite
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture sprite.jpg
+ 	scale 1 1 1
+      }
+    }
+  }
+}

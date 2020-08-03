@@ -1,0 +1,15 @@
+material side_table_set_1_frame
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture wood_dark_1.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

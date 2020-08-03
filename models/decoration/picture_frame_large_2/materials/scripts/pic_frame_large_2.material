@@ -1,0 +1,15 @@
+material pic_frame_large_2
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture animal.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

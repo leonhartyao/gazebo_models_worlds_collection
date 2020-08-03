@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="toolbox_metal_blue">
+    <link name="link">
+   <pose>0 0 0 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+         <box>
+	<size>0.15 0.3 0.1</size>
+	</box>
+        </geometry>
+      </collision>
+	<visual name="bodyMesh">
+	<pose>0 0 0 0 0 0</pose>
+	<geometry>
+	  <mesh>
+	    <uri>model://toolbox_metal_blue/meshes/toolbox_metal.dae</uri>
+	  	<scale>1 1 1</scale>
+	  </mesh>
+	  </geometry>
+	<material>
+          <script>
+            <uri>model://toolbox_metal_blue/materials/scripts</uri>
+            <uri>model://toolbox_metal_blue/materials/textures</uri>
+            <name>toolbox_blue</name>
+          </script>
+        </material>
+	</visual>
+    </link>
+<static>1</static>
+ </model>
+</sdf>

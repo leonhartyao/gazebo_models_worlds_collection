@@ -1,0 +1,133 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='camera_fujica'>
+    <link name='link_4'>
+         <visual name='visual'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://camera_fujica/meshes/camera_body.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <lighting>1</lighting>
+    
+          <ambient>0 0 0 1</ambient>
+          <diffuse>0.1 0.1 0.1 1</diffuse>
+          <specular>0.01 0.01 0.01 1</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://camera_fujica/meshes/camera_body.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+     </collision>
+    </link>
+    <link name='link_5'>
+       <visual name='visual'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://camera_fujica/meshes/camera_front.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+             <material>
+          <script>
+            <uri>model://camera_fujica/materials/scripts</uri>
+            <uri>model://camera_fujica/materials/textures</uri>
+            <name>camera_front</name>
+          </script>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://camera_fujica/meshes/camera_front.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+    
+      </collision>
+    </link>
+    <link name='link_6'>
+       <visual name='visual'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://camera_fujica/meshes/camera_lenses.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <lighting>1</lighting>
+          <ambient>0.25 0 0.5 1</ambient>
+          <diffuse>0.45 0 0.9 1</diffuse>
+          <specular>0.01 0.01 0.01 1</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://camera_fujica/meshes/camera_lenses.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+       </collision>
+    </link>
+    <link name='link_7'>
+        <visual name='visual'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://camera_fujica/meshes/camera_silver.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+                <material>
+          <script>
+            <uri>model://camera_fujica/materials/scripts</uri>
+            <uri>model://camera_fujica/materials/textures</uri>
+            <name>camera_silver</name>
+          </script>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://camera_fujica/meshes/camera_silver.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+       </collision>
+    </link>
+    <static>1</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>

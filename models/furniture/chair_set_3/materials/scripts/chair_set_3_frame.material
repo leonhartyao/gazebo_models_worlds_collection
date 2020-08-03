@@ -1,0 +1,15 @@
+material chair_set_3_frame
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture bamboo.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

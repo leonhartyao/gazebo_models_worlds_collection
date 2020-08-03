@@ -1,0 +1,15 @@
+material pic_frame_large_8
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture night.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

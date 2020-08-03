@@ -1,0 +1,15 @@
+material laptop_pc_lines
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture metal_red.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

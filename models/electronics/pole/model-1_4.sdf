@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+   <!--pole-->
+   <model name="pole">
+    <link name="body">
+    <inertial>	
+	<mass>2</mass>
+	<inertia>
+	 <ixx>0.00038054</ixx>
+	 <iyy>0.00038054</iyy>
+	 <izz>0.00064533</izz>
+	 <ixy>0</ixy>
+	 <ixz>0</ixz>
+	 <iyz>0</iyz>
+	</inertia>
+       </inertial>
+	
+<!--pole Collision-->
+     <collision name="pc1">
+      <geometry>
+        <box>
+	  <size> 0.045 0.044 0.289849 </size>
+	</box>
+      </geometry>
+     </collision>
+    
+ <!--pole Visual-->
+    <visual name="pv1">
+      <material>
+        <diffuse>0.5 0.5 0.5 1.0</diffuse>
+	<ambient>0.5 0.5 0.5 1.0</ambient>
+	<specular>0.5 0.5 0.5 1.0</specular>
+	<emissive>0.5 0.5 0.5 1.0</emissive>
+      </material>
+      <geometry>
+        <box>
+	  <size> 0.045 0.044 0.286849 </size>
+	</box>
+      </geometry>
+     </visual>
+  </link>
+ </model>
+</sdf>

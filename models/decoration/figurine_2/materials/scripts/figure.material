@@ -1,0 +1,15 @@
+material figure
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aluminum.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

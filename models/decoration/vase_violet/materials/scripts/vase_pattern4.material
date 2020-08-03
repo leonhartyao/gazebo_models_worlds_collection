@@ -1,0 +1,15 @@
+material vase_pattern4
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture vase_pattern4.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

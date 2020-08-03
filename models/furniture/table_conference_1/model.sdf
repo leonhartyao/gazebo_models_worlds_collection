@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='table_conference_1'>
+    <link name='link_0'>
+      <visual name='visual'>
+        <geometry>
+          <mesh>
+            <uri>model://table_conference_1/meshes/table.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+	<material>
+          <script>
+            <uri>model://table_conference_1/materials/scripts</uri>
+            <uri>model://table_conference_1/materials/textures</uri>
+            <name>table_conf_1</name>
+          </script>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://table_conference_1/meshes/table.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+       </collision>
+    </link>
+    <static>1</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>

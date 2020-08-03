@@ -1,0 +1,15 @@
+material file_2_metal
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Metal_Rough.jpg
+	scale 0.5 0.5
+      }
+    }
+  }
+}
+

@@ -1,0 +1,15 @@
+material laptop_pc_screen_1
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture screen_1_pc.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

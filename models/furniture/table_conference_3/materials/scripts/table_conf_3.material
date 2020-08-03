@@ -1,0 +1,15 @@
+material table_conf_3
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture wood_black_conf.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

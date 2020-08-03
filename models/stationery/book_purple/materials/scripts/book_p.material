@@ -1,0 +1,15 @@
+material book_p
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture cover_p.jpg
+	scale 0.4 0.4
+      }
+    }
+  }
+}
+

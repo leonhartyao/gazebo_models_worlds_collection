@@ -1,0 +1,15 @@
+material pic_frame_large_7
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture japanese.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

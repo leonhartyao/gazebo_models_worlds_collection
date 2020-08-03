@@ -1,0 +1,14 @@
+material coke
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture coke.jpg
+ 	scale 1 1 1
+      }
+    }
+  }
+}

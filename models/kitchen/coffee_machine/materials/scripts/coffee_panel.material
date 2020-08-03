@@ -1,0 +1,15 @@
+material coffee_panel
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture panel.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

@@ -1,0 +1,15 @@
+material chair_1_cushion
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture fabric_1.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

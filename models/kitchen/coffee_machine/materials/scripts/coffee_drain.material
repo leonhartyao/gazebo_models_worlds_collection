@@ -1,0 +1,15 @@
+material coffee_drain
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture drain.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

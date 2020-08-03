@@ -1,0 +1,15 @@
+material chair_2_frame
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture wood_light.png
+	scale 1 1
+      }
+    }
+  }
+}
+

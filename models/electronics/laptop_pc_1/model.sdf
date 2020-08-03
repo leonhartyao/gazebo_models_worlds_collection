@@ -1,0 +1,252 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='laptop_pc_1'>
+    <link name='link_0'>
+       <visual name='visual'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://laptop_pc_1/meshes/body.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <lighting>1</lighting>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0 0 0 1</ambient>
+          <diffuse>0.1 0.1 0.1 1</diffuse>
+          <specular>0.01 0.01 0.01 1</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://laptop_pc_1/meshes/body.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+       </collision>
+    </link>
+    <link name='link_1'>
+     
+      <visual name='visual'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://laptop_pc_1/meshes/bottom.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <lighting>1</lighting>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0 0 0 1</ambient>
+          <diffuse>0.1 0.1 0.1 1</diffuse>
+          <specular>0.01 0.01 0.01 1</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://laptop_pc_1/meshes/bottom.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+       
+      </collision>
+    </link>
+    <link name='link_2'>
+     
+      <visual name='visual'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://laptop_pc_1/meshes/keys.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <lighting>1</lighting>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.2 0.2 0.2 1</ambient>
+          <diffuse>0.2 0.2 0.2 1</diffuse>
+          <specular>0.01 0.01 0.01 1</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://laptop_pc_1/meshes/keys.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+       
+      </collision>
+    </link>
+    <link name='link_3'>
+   
+      <visual name='visual'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://laptop_pc_1/meshes/letters.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <lighting>1</lighting>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.01 0.01 0.01 1</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://laptop_pc_1/meshes/letters.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      
+      </collision>
+    </link>
+    <link name='link_4'>
+       <visual name='visual'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://laptop_pc_1/meshes/lines.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+            	<material>
+          <script>
+            <uri>model://laptop_pc_1/materials/scripts</uri>
+            <uri>model://laptop_pc_1/materials/textures</uri>
+            <name>laptop_pc_lines</name>
+          </script>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://laptop_pc_1/meshes/lines.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+       
+      </collision>
+    </link>
+    <link name='link_5'>
+
+      <visual name='visual'>
+        <pose frame=''>0.004103 0.133894 0.131973 -0.22 0 0</pose>
+        <geometry>
+          <!--mesh>
+            <uri>model://laptop_pc_1/meshes/screen.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh-->
+	   <box>
+            <size>0.3275 0.001 0.194</size>
+          </box>
+	
+        </geometry>
+          <material>
+          <script>
+            <uri>model://laptop_pc_1/materials/scripts</uri>
+            <uri>model://laptop_pc_1/materials/textures</uri>
+            <name>laptop_pc_screen_1</name>
+          </script>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://laptop_pc_1/meshes/screen.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      
+      </collision>
+    </link>
+    <link name='link_6'>
+     <visual name='visual'>
+         <geometry>
+          <mesh>
+            <uri>model://laptop_pc_1/meshes/silver.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+         <material>
+          <script>
+            <uri>model://laptop_pc_1/materials/scripts</uri>
+            <uri>model://laptop_pc_1/materials/textures</uri>
+            <name>laptop_pc_silver</name>
+          </script>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://laptop_pc_1/meshes/silver.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        </collision>
+    </link>
+    <static>1</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>

@@ -1,0 +1,15 @@
+material pic_frame_small_3
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture flower.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

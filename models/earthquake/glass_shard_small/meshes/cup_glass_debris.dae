@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.71.0 commit date:2014-06-12, commit time:18:39, hash:169c95b</authoring_tool>
+    </contributor>
+    <created>2016-08-24T16:47:16</created>
+    <modified>2016-08-24T16:47:16</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_cameras>
+    <camera id="Camera-camera" name="Camera">
+      <optics>
+        <technique_common>
+          <perspective>
+            <xfov sid="xfov">49.13434</xfov>
+            <aspect_ratio>1.777778</aspect_ratio>
+            <znear sid="znear">0.1</znear>
+            <zfar sid="zfar">100</zfar>
+          </perspective>
+        </technique_common>
+      </optics>
+      <extra>
+        <technique profile="blender">
+          <YF_dofdist>0</YF_dofdist>
+          <shiftx>0</shiftx>
+          <shifty>0</shifty>
+        </technique>
+      </extra>
+    </camera>
+  </library_cameras>
+  <library_images/>
+  <library_effects>
+    <effect id="Translucent_Glass_Gray_001-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.4015687 0.4015687 0.4015687 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="edge_color128128128255_001-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.64 0.64 0.64 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="edge_color128128128255-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.64 0.64 0.64 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Translucent_Glass_Gray-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.4015687 0.4015687 0.4015687 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="edge_color808080255-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.64 0.64 0.64 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Translucent_Glass_Gray_001-material" name="Translucent_Glass_Gray_001">
+      <instance_effect url="#Translucent_Glass_Gray_001-effect"/>
+    </material>
+    <material id="edge_color128128128255_001-material" name="edge_color128128128255_001">
+      <instance_effect url="#edge_color128128128255_001-effect"/>
+    </material>
+    <material id="edge_color128128128255-material" name="edge_color128128128255">
+      <instance_effect url="#edge_color128128128255-effect"/>
+    </material>
+    <material id="Translucent_Glass_Gray-material" name="Translucent_Glass_Gray">
+      <instance_effect url="#Translucent_Glass_Gray-effect"/>
+    </material>
+    <material id="edge_color808080255-material" name="edge_color808080255">
+      <instance_effect url="#edge_color808080255-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="ID57_002-mesh" name="ID57.002">
+      <mesh>
+        <source id="ID57_002-mesh-positions">
+          <float_array id="ID57_002-mesh-positions-array" count="0"/>
+          <technique_common>
+            <accessor source="#ID57_002-mesh-positions-array" count="0" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ID57_002-mesh-normals">
+          <float_array id="ID57_002-mesh-normals-array" count="0"/>
+          <technique_common>
+            <accessor source="#ID57_002-mesh-normals-array" count="0" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ID57_002-mesh-vertices">
+          <input semantic="POSITION" source="#ID57_002-mesh-positions"/>
+        </vertices>
+      </mesh>
+    </geometry>
+    <geometry id="ID79-mesh" name="ID79">
+      <mesh>
+        <source id="ID79-mesh-positions">
+          <float_array id="ID79-mesh-positions-array" count="6">0 0.6720714 0 0.710374 0.6720714 0</float_array>
+          <technique_common>
+            <accessor source="#ID79-mesh-positions-array" count="2" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ID79-mesh-normals">
+          <float_array id="ID79-mesh-normals-array" count="0"/>
+          <technique_common>
+            <accessor source="#ID79-mesh-normals-array" count="0" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ID79-mesh-vertices">
+          <input semantic="POSITION" source="#ID79-mesh-positions"/>
+        </vertices>
+        <lines count="1">
+          <input semantic="VERTEX" source="#ID79-mesh-vertices" offset="0"/>
+          <p>0 1</p>
+        </lines>
+      </mesh>
+    </geometry>
+    <geometry id="ID85-mesh" name="ID85">
+      <mesh>
+        <source id="ID85-mesh-positions">
+          <float_array id="ID85-mesh-positions-array" count="183">50.04851 35.73472 0 36.33196 20.09399 0 69.70381 0 0 89.33362 38.1498 0 92.11383 2.176629 0 106.7441 11.18117 0 116.2768 8.033663 0 117.8616 36.70186 0 128.203 4.095897 0 132.3123 22.93464 0 136.7857 7.648125 0 136.7857 7.648125 0 128.203 4.095897 0 117.8616 36.70186 0 116.2768 8.033663 0 106.7441 11.18117 0 92.11383 2.176629 0 89.33362 38.1498 0 50.04851 35.73472 0 36.33196 20.09399 0 89.33362 38.1498 0 117.8616 36.70186 0 136.7857 7.648125 0 128.203 4.095897 0 116.2768 8.033663 0 106.7441 11.18117 0 92.11383 2.176629 0 36.33196 20.09399 0 50.04851 35.73472 0 89.33362 38.1498 5.25 89.33362 38.1498 5.25 108.6714 45.54458 5.25 108.6714 45.54458 5.25 117.8616 36.70186 5.25 117.8616 36.70186 5.25 117.8616 36.70186 5.25 132.3123 22.93464 5.25 132.3123 22.93464 5.25 132.3123 22.93464 5.25 141.059 17.39937 5.25 141.059 17.39937 5.25 136.7857 7.648125 5.25 136.7857 7.648125 5.25 136.7857 7.648125 5.25 128.203 4.095897 5.25 128.203 4.095897 5.25 128.203 4.095897 5.25 116.2768 8.033663 5.25 116.2768 8.033663 5.25 116.2768 8.033663 5.25 106.7441 11.18117 5.25 106.7441 11.18117 5.25 106.7441 11.18117 5.25 50.83196 5.18329 5.25 50.83196 5.18329 5.25 36.33196 20.09399 5.25 36.33196 20.09399 5.25 36.33196 20.09399 5.25 50.04851 35.73472 5.25 50.04851 35.73472 5.25 50.04851 35.73472 5.25</float_array>
+          <technique_common>
+            <accessor source="#ID85-mesh-positions-array" count="61" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ID85-mesh-normals">
+          <float_array id="ID85-mesh-normals-array" count="108">0 0 -0.9999695 0 0 -1 0 0 -1 -0.2707297 -0.8200019 -0.5042573 0.6594745 0.6892911 -0.2998749 0.02832114 -0.770745 -0.6364635 0.3549913 0.372631 -0.8573565 0.2612995 -0.6313364 -0.7301248 -0.03494364 0.9515366 0.3054597 -0.662801 -0.6888638 0.2934355 0.2707297 0.8200019 0.5042573 0.2864467 0.297708 0.9106418 0.4886013 0.5103305 0.7076632 -0.3096713 -0.3218482 -0.8946806 -0.2864467 -0.297708 -0.9106418 0.2936491 0.308237 0.9048433 0.2108829 -0.5095065 0.8341929 0.02832114 -0.770745 0.6364635 -0.02832114 0.770745 -0.6364635 -0.2108829 0.5095065 -0.8341929 -0.3823969 0.9239784 0 -0.2216864 -0.6714377 0.7070834 0.2216864 0.6714377 -0.7070834 -0.3135166 -0.9495529 0 -0.2039552 -0.6177557 0.7594226 0.2039552 0.6177557 -0.7594226 0.3135166 0.9495529 0 0 0 0.9999695 0 0 1 0 0 0.9999695 0 0 0.9999695 0 0 -0.9999695 0 0 -0.9999695 0 0 -0.9999695 0 0 -1 0 0 -0.9999695</float_array>
+          <technique_common>
+            <accessor source="#ID85-mesh-normals-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ID85-mesh-vertices">
+          <input semantic="POSITION" source="#ID85-mesh-positions"/>
+        </vertices>
+        <lines count="9">
+          <input semantic="VERTEX" source="#ID85-mesh-vertices" offset="0"/>
+          <p>19 18 1 0 30 17 59 18 55 1 17 16 56 19 58 0 29 3</p>
+        </lines>
+        <polylist material="Translucent_Glass_Gray-material" count="35">
+          <input semantic="VERTEX" source="#ID85-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ID85-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>2 0 3 1 4 2 6 3 7 4 8 5 8 5 7 4 9 6 8 5 9 6 10 7 12 8 13 9 14 10 7 4 31 11 33 12 34 13 32 14 13 9 33 12 9 6 7 4 9 6 33 12 36 15 41 16 8 5 10 7 8 5 41 16 44 17 45 18 42 19 12 8 11 20 12 8 42 19 44 17 6 3 8 5 6 3 44 17 47 21 48 22 45 18 14 10 12 8 14 10 45 18 47 21 5 23 6 3 5 23 47 21 50 24 51 25 48 22 15 26 14 10 15 26 48 22 58 27 55 28 53 29 31 11 50 24 47 21 31 11 47 21 33 12 33 12 47 21 44 17 33 12 44 17 36 15 36 15 44 17 41 16 36 15 41 16 39 30 40 31 42 19 37 32 42 19 45 18 37 32 37 32 45 18 34 13 45 18 48 22 34 13 34 13 48 22 32 14 48 22 51 25 32 14 54 33 56 34 59 35</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="ID57_001-mesh" name="ID57.001">
+      <mesh>
+        <source id="ID57_001-mesh-positions">
+          <float_array id="ID57_001-mesh-positions-array" count="72">41.28165 62.5 0 0 94.5 0 0 115.25 0 0 62.5 0 41.28165 62.5 0 0 62.5 0 0 94.5 0 0 115.25 0 41.28165 62.5 0 0 62.5 0 0 94.5 0 0 115.25 0 41.28165 62.5 2.75 41.28165 62.5 2.75 41.28165 62.5 2.75 0 62.5 2.75 0 62.5 2.75 0 62.5 2.75 0 94.5 2.75 0 94.5 2.75 0 94.5 2.75 0 115.25 2.75 0 115.25 2.75 0 115.25 2.75</float_array>
+          <technique_common>
+            <accessor source="#ID57_001-mesh-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ID57_001-mesh-normals">
+          <float_array id="ID57_001-mesh-normals-array" count="48">0.6820276 0.5337382 -0.4999237 -0.7070834 0 -0.7070834 -0.2734764 0.7932066 -0.544084 -0.7070834 0 -0.7070834 0.7070834 0 0.7070834 -0.6820276 -0.5337382 0.4999237 0.7070834 0 0.7070834 0.2734764 -0.7932066 0.544084 -1 0 0 -1 0 0 1 0 0 1 0 0 -0.3259377 0.9453719 0 0.3259377 -0.9453719 0 0.7874996 0.6162908 0 -0.7874996 -0.6162908 0</float_array>
+          <technique_common>
+            <accessor source="#ID57_001-mesh-normals-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ID57_001-mesh-vertices">
+          <input semantic="POSITION" source="#ID57_001-mesh-positions"/>
+        </vertices>
+        <polylist material="Translucent_Glass_Gray-material" count="16">
+          <input semantic="VERTEX" source="#ID57_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ID57_001-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 1 1 2 2 1 1 0 0 3 3 5 4 4 5 6 6 7 7 6 6 4 5 18 8 3 3 15 9 3 3 18 8 1 1 6 6 19 10 5 4 16 11 5 4 19 10 21 12 1 1 18 8 1 1 21 12 2 2 7 7 22 13 6 6 19 10 6 6 22 13 2 2 12 14 0 0 12 14 2 2 21 12 22 13 7 7 13 15 4 5 13 15 7 7</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="ID85_002-mesh" name="ID85.002">
+      <mesh>
+        <source id="ID85_002-mesh-positions">
+          <float_array id="ID85_002-mesh-positions-array" count="357">5.389215 48.3529 0 3.764783 43.59372 0 0 46.42586 0 14.7745 37.30724 0 50.04851 35.73472 0 36.33196 20.09399 0 50.83196 5.18329 0 68.25531 35.02989 0 69.70381 0 0 89.33362 38.1498 0 99.6428 45.34081 0 99.92461 19.27835 0 108.6714 45.54458 0 106.7441 11.18117 0 116.2768 8.033663 0 117.8616 36.70186 0 128.203 4.095897 0 132.3123 22.93464 0 136.7857 7.648125 0 141.059 17.39937 0 141.059 17.39937 0 132.3123 22.93464 0 136.7857 7.648125 0 128.203 4.095897 0 117.8616 36.70186 0 116.2768 8.033663 0 108.6714 45.54458 0 106.7441 11.18117 0 99.92461 19.27835 0 99.6428 45.34081 0 89.33362 38.1498 0 69.70381 0 0 68.25531 35.02989 0 50.83196 5.18329 0 50.04851 35.73472 0 36.33196 20.09399 0 14.7745 37.30724 0 5.389215 48.3529 0 3.764783 43.59372 0 0 46.42586 0 89.33362 38.1498 0 99.6428 45.34081 0 108.6714 45.54458 0 117.8616 36.70186 0 132.3123 22.93464 0 141.059 17.39937 0 136.7857 7.648125 0 128.203 4.095897 0 116.2768 8.033663 0 106.7441 11.18117 0 69.70381 0 0 50.83196 5.18329 0 36.33196 20.09399 0 14.7745 37.30724 0 3.764783 43.59372 0 0 46.42586 0 5.389215 48.3529 0 50.04851 35.73472 0 68.25531 35.02989 0 89.33362 38.1498 5.25 99.6428 45.34081 5.25 99.6428 45.34081 5.25 89.33362 38.1498 5.25 89.33362 38.1498 5.25 99.6428 45.34081 5.25 108.6714 45.54458 5.25 108.6714 45.54458 5.25 108.6714 45.54458 5.25 117.8616 36.70186 5.25 117.8616 36.70186 5.25 117.8616 36.70186 5.25 132.3123 22.93464 5.25 132.3123 22.93464 5.25 132.3123 22.93464 5.25 141.059 17.39937 5.25 141.059 17.39937 5.25 141.059 17.39937 5.25 136.7857 7.648125 5.25 136.7857 7.648125 5.25 136.7857 7.648125 5.25 128.203 4.095897 5.25 128.203 4.095897 5.25 128.203 4.095897 5.25 116.2768 8.033663 5.25 116.2768 8.033663 5.25 116.2768 8.033663 5.25 106.7441 11.18117 5.25 106.7441 11.18117 5.25 106.7441 11.18117 5.25 99.92461 19.27835 5.25 99.92461 19.27835 5.25 99.92461 19.27835 5.25 69.70381 0 5.25 69.70381 0 5.25 69.70381 0 5.25 50.83196 5.18329 5.25 50.83196 5.18329 5.25 50.83196 5.18329 5.25 36.33196 20.09399 5.25 36.33196 20.09399 5.25 36.33196 20.09399 5.25 14.7745 37.30724 5.25 14.7745 37.30724 5.25 14.7745 37.30724 5.25 3.764783 43.59372 5.25 3.764783 43.59372 5.25 3.764783 43.59372 5.25 0 46.42586 5.25 0 46.42586 5.25 0 46.42586 5.25 5.389215 48.3529 5.25 5.389215 48.3529 5.25 5.389215 48.3529 5.25 50.04851 35.73472 5.25 50.04851 35.73472 5.25 50.04851 35.73472 5.25 68.25531 35.02989 5.25 68.25531 35.02989 5.25 68.25531 35.02989 5.25</float_array>
+          <technique_common>
+            <accessor source="#ID85_002-mesh-positions-array" count="119" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ID85_002-mesh-normals">
+          <float_array id="ID85_002-mesh-normals-array" count="240">-0.02600175 0.7640919 -0.6445509 -0.3960998 -0.6021302 -0.6931669 -0.8238777 0.1251564 -0.5527207 -0.3868221 -0.5699027 -0.7249367 0.1060518 0.6700644 -0.7346416 -0.4651326 -0.5128941 -0.7214881 -0.3854793 -0.6523637 -0.6524857 -0.03704947 0.6839503 -0.7285684 -0.1753288 -0.6384472 -0.7494125 -0.3524888 0.8876613 -0.2962737 -0.4125187 -0.3474227 -0.8420667 -0.2748497 0.8411817 -0.4656514 0.2821131 0.7235328 -0.6299631 -0.4255501 -0.628956 -0.6505936 -0.2216864 -0.6714377 -0.7070834 0.4886013 0.5103305 -0.7076632 0.02832114 -0.770745 -0.6364635 0.4205145 0.5388348 -0.7299112 0.5423445 -0.5536363 -0.6319163 0.7750786 0.2370067 -0.5857113 -0.7750786 -0.2370067 0.5857113 -0.4205145 -0.5388348 0.7299112 -0.5423445 0.5536363 0.6319163 -0.02832114 0.770745 0.6364635 -0.4886013 -0.5103305 0.7076632 0.2216864 0.6714377 0.7070834 -0.2821131 -0.7235328 0.6299631 0.4255501 0.628956 0.6505936 0.4125187 0.3474227 0.8420667 0.2748497 -0.8411817 0.4656514 0.3524888 -0.8876613 0.2962737 0.03704947 -0.6839503 0.7285684 0.1753288 0.6384472 0.7494125 0.3854793 0.6523637 0.6524857 -0.1060518 -0.6700644 0.7346416 0.4651326 0.5128941 0.7214881 0.3868221 0.5699027 0.7249367 0.02600175 -0.7640919 0.6445509 0.3960998 0.6021302 0.6931669 0.8238777 -0.1251564 0.5527207 -0.3524888 0.8876613 0.2962737 -0.2748497 0.8411817 0.4656514 0.2748497 -0.8411817 -0.4656514 0.3524888 -0.8876613 -0.2962737 0.2821131 0.7235328 0.6299631 -0.2821131 -0.7235328 -0.6299631 0.4886013 0.5103305 0.7076632 -0.4886013 -0.5103305 -0.7076632 0.4205145 0.5388348 0.7299112 -0.4205145 -0.5388348 -0.7299112 0.7750786 0.2370067 0.5857113 -0.7750786 -0.2370067 -0.5857113 0.5423445 -0.5536363 0.6319163 -0.5423445 0.5536363 -0.6319163 0.02832114 -0.770745 0.6364635 -0.02832114 0.770745 -0.6364635 -0.2216864 -0.6714377 0.7070834 0.2216864 0.6714377 -0.7070834 -0.4255501 -0.628956 0.6505936 0.4255501 0.628956 -0.6505936 -0.4125187 -0.3474227 0.8420667 0.4125187 0.3474227 -0.8420667 -0.1753288 -0.6384472 0.7494125 -0.3854793 -0.6523637 0.6524857 0.3854793 0.6523637 -0.6524857 0.1753288 0.6384472 -0.7494125 -0.4651326 -0.5128941 0.7214881 0.4651326 0.5128941 -0.7214881 -0.3868221 -0.5699027 0.7249367 0.3868221 0.5699027 -0.7249367 -0.3960998 -0.6021302 0.6931669 0.3960998 0.6021302 -0.6931669 -0.8238777 0.1251564 0.5527207 0.8238777 -0.1251564 -0.5527207 -0.02600175 0.7640919 0.6445509 0.02600175 -0.7640919 -0.6445509 0.1060518 0.6700644 0.7346416 -0.1060518 -0.6700644 -0.7346416 -0.03704947 0.6839503 0.7285684 0.03704947 -0.6839503 -0.7285684</float_array>
+          <technique_common>
+            <accessor source="#ID85_002-mesh-normals-array" count="80" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ID85_002-mesh-vertices">
+          <input semantic="POSITION" source="#ID85_002-mesh-positions"/>
+        </vertices>
+        <polylist material="Translucent_Glass_Gray-material" count="140">
+          <input semantic="VERTEX" source="#ID85_002-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ID85_002-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 1 1 2 2 1 1 0 0 3 3 3 3 0 0 4 4 3 3 4 4 5 5 5 5 4 4 6 6 6 6 4 4 7 7 6 6 7 7 8 8 8 8 7 7 9 9 11 10 10 11 12 12 11 10 12 12 13 13 13 13 12 12 14 14 14 14 12 12 15 15 14 14 15 15 16 16 16 16 15 15 17 17 16 16 17 17 18 18 18 18 17 17 19 19 20 20 21 21 22 22 22 22 21 21 23 23 21 21 24 24 23 23 23 23 24 24 25 25 24 24 26 26 25 25 25 25 26 26 27 27 27 27 26 26 28 28 26 26 29 29 28 28 30 30 32 31 31 32 31 32 32 31 33 33 32 31 34 34 33 33 33 33 34 34 35 35 35 35 34 34 36 36 34 34 37 37 36 36 36 36 37 37 38 38 39 39 38 38 37 37 59 40 10 11 9 9 10 11 59 40 60 41 61 42 62 43 29 29 30 30 29 29 62 43 60 41 12 12 10 11 12 12 60 41 65 44 66 45 61 42 26 26 29 29 26 26 61 42 65 44 15 15 12 12 15 15 65 44 68 46 69 47 66 45 24 24 26 26 24 24 66 45 68 46 17 17 15 15 17 17 68 46 71 48 72 49 69 47 21 21 24 24 21 21 69 47 71 48 19 19 17 17 19 19 71 48 74 50 75 51 72 49 20 20 21 21 20 20 72 49 19 19 77 52 18 18 77 52 19 19 74 50 75 51 20 20 78 53 22 22 78 53 20 20 77 52 16 16 18 18 16 16 77 52 80 54 81 55 78 53 23 23 22 22 23 23 78 53 80 54 14 14 16 16 14 14 80 54 83 56 84 57 81 55 25 25 23 23 25 25 81 55 83 56 13 13 14 14 13 13 83 56 86 58 87 59 84 57 27 27 25 25 27 27 84 57 89 60 13 13 86 58 13 13 89 60 11 10 28 28 90 61 27 27 87 59 27 27 90 61 92 62 6 6 8 8 6 6 92 62 95 63 96 64 93 65 33 33 31 32 33 33 93 65 98 66 6 6 95 63 6 6 98 66 5 5 35 35 99 67 33 33 96 64 33 33 99 67 98 66 3 3 5 5 3 3 98 66 101 68 102 69 99 67 36 36 35 35 36 36 99 67 101 68 1 1 3 3 1 1 101 68 104 70 105 71 102 69 38 38 36 36 38 38 102 69 104 70 2 2 1 1 2 2 104 70 107 72 108 73 105 71 39 39 38 38 39 39 105 71 107 72 0 0 2 2 0 0 107 72 110 74 111 75 108 73 37 37 39 39 37 37 108 73 110 74 4 4 0 0 4 4 110 74 113 76 114 77 111 75 34 34 37 37 34 34 111 75 113 76 7 7 4 4 7 7 113 76 116 78 117 79 114 77 32 31 34 34 32 31 114 77 116 78 9 9 7 7 9 9 116 78 59 40 62 43 117 79 30 30 32 31 30 30 117 79 104 70 110 74 107 72 110 74 104 70 101 68 110 74 101 68 113 76 113 76 101 68 98 66 113 76 98 66 95 63 113 76 95 63 116 78 116 78 95 63 92 62 116 78 92 62 59 40 60 41 89 60 65 44 65 44 89 60 86 58 65 44 86 58 83 56 65 44 83 56 68 46 68 46 83 56 80 54 68 46 80 54 71 48 71 48 80 54 77 52 71 48 77 52 74 50 75 51 78 53 72 49 78 53 81 55 72 49 72 49 81 55 69 47 81 55 84 57 69 47 69 47 84 57 66 45 84 57 87 59 66 45 87 59 90 61 66 45 66 45 90 61 61 42 62 43 93 65 117 79 93 65 96 64 117 79 117 79 96 64 114 77 96 64 99 67 114 77 99 67 102 69 114 77 114 77 102 69 111 75 102 69 105 71 111 75 108 73 111 75 105 71</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="ID101-mesh" name="ID101">
+      <mesh>
+        <source id="ID101-mesh-positions">
+          <float_array id="ID101-mesh-positions-array" count="0"/>
+          <technique_common>
+            <accessor source="#ID101-mesh-positions-array" count="0" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ID101-mesh-normals">
+          <float_array id="ID101-mesh-normals-array" count="0"/>
+          <technique_common>
+            <accessor source="#ID101-mesh-normals-array" count="0" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ID101-mesh-vertices">
+          <input semantic="POSITION" source="#ID101-mesh-positions"/>
+        </vertices>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="instance_5" name="instance_5" type="NODE">
+        <matrix sid="transform">1 0 0 -0.005720282 0 1 0 0.02414453 0 0 1 0.004014259 0 0 0 1</matrix>
+        <instance_geometry url="#ID57_002-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Translucent_Glass_Gray_001-material" target="#Translucent_Glass_Gray_001-material"/>
+              <instance_material symbol="edge_color128128128255_001-material" target="#edge_color128128128255_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Camera" name="Camera" type="NODE">
+        <matrix sid="transform">0.6858805 -0.3173701 0.6548619 7.481132 0.7276338 0.3124686 -0.6106656 -6.50764 -0.01081678 0.8953432 0.4452454 5.343665 0 0 0 1</matrix>
+        <instance_camera url="#Camera-camera"/>
+      </node>
+      <node id="SketchUp" name="SketchUp" type="NODE">
+        <matrix sid="transform">2.25265e-4 0 0 0.03625908 0 2.25265e-4 0 -0.08718716 0 0 2.25265e-4 0.003954933 0 0 0 1</matrix>
+        <instance_geometry url="#ID101-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="edge_color128128128255-material" target="#edge_color128128128255-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <node id="Last_Saved_SketchUp_View" name="Last_Saved_SketchUp_View" type="NODE">
+          <matrix sid="transform">0 0 0 -1.52588e-5 0 0 0 3.05176e-5 0 0 0 -1.90735e-6 0 0 0 1</matrix>
+        </node>
+        <node id="instance_7_001" name="instance_7_001" type="NODE">
+          <matrix sid="transform">1 2.74981e-8 0 -163.5165 0 1 0 120.8529 -7.45058e-9 -3.43727e-9 1 -14.74152 0 0 0 1</matrix>
+          <instance_geometry url="#ID79-mesh">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="edge_color128128128255-material" target="#edge_color128128128255-material"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="instance_8" name="instance_8" type="NODE">
+          <matrix sid="transform">1 2.74981e-8 0 -216.5129 0 1 0 330.404 -7.45058e-9 -3.43727e-9 1 -17.16956 0 0 0 1</matrix>
+          <instance_geometry url="#ID85-mesh">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="Translucent_Glass_Gray-material" target="#Translucent_Glass_Gray-material"/>
+                <instance_material symbol="edge_color128128128255-material" target="#edge_color128128128255-material"/>
+                <instance_material symbol="edge_color808080255-material" target="#edge_color808080255-material"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="instance_5_001" name="instance_5_001" type="NODE">
+          <matrix sid="transform">0.7071068 0.7071066 0 -258.1117 -0.7071066 0.7071068 0 313.2672 -2.83784e-9 -7.69887e-9 1 -14.79585 0 0 0 1</matrix>
+          <instance_geometry url="#ID57_001-mesh">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="Translucent_Glass_Gray-material" target="#Translucent_Glass_Gray-material"/>
+                <instance_material symbol="edge_color128128128255-material" target="#edge_color128128128255-material"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="instance_8_002" name="instance_8_002" type="NODE">
+          <matrix sid="transform">0.656059 -0.7547095 0 -189.5181 0.7547095 0.656059 0 351.313 -7.48216e-9 3.36798e-9 1 -16.47661 0 0 0 1</matrix>
+          <instance_geometry url="#ID85_002-mesh">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="Translucent_Glass_Gray-material" target="#Translucent_Glass_Gray-material"/>
+                <instance_material symbol="edge_color128128128255-material" target="#edge_color128128128255-material"/>
+                <instance_material symbol="edge_color808080255-material" target="#edge_color808080255-material"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

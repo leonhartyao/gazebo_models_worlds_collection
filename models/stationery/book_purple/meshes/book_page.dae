@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.71.0 commit date:2014-06-12, commit time:18:39, hash:169c95b</authoring_tool>
+    </contributor>
+    <created>2016-08-17T16:55:40</created>
+    <modified>2016-08-17T16:55:40</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_cameras>
+    <camera id="Camera-camera" name="Camera">
+      <optics>
+        <technique_common>
+          <perspective>
+            <xfov sid="xfov">49.13434</xfov>
+            <aspect_ratio>1.777778</aspect_ratio>
+            <znear sid="znear">0.1</znear>
+            <zfar sid="zfar">100</zfar>
+          </perspective>
+        </technique_common>
+      </optics>
+      <extra>
+        <technique profile="blender">
+          <YF_dofdist>0</YF_dofdist>
+          <shiftx>0</shiftx>
+          <shifty>0</shifty>
+        </technique>
+      </extra>
+    </camera>
+    <camera id="Camera_001-camera" name="Camera.001">
+      <optics>
+        <technique_common>
+          <perspective>
+            <xfov sid="xfov">49.13434</xfov>
+            <aspect_ratio>1.777778</aspect_ratio>
+            <znear sid="znear">0.1</znear>
+            <zfar sid="zfar">100</zfar>
+          </perspective>
+        </technique_common>
+      </optics>
+      <extra>
+        <technique profile="blender">
+          <YF_dofdist>0</YF_dofdist>
+          <shiftx>0</shiftx>
+          <shifty>0</shifty>
+        </technique>
+      </extra>
+    </camera>
+    <camera id="Camera_001-camera" name="Camera.002">
+      <optics>
+        <technique_common>
+          <perspective>
+            <xfov sid="xfov">49.13434</xfov>
+            <aspect_ratio>1.777778</aspect_ratio>
+            <znear sid="znear">0.1</znear>
+            <zfar sid="zfar">100</zfar>
+          </perspective>
+        </technique_common>
+      </optics>
+      <extra>
+        <technique profile="blender">
+          <YF_dofdist>0</YF_dofdist>
+          <shiftx>0</shiftx>
+          <shifty>0</shifty>
+        </technique>
+      </extra>
+    </camera>
+  </library_cameras>
+  <library_images/>
+  <library_effects>
+    <effect id="Sketchy_Lines_Wavy_Vertical-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.512 0.512 0.512 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.125 0.125 0.125 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="material_001-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.3433412 0.3533805 0.4096 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.125 0.125 0.125 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="edge_color000255_001-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.4096 0.4096 0.4096 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.125 0.125 0.125 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Sketchy_Lines_Wavy_Vertical-material" name="Sketchy_Lines_Wavy_Vertical">
+      <instance_effect url="#Sketchy_Lines_Wavy_Vertical-effect"/>
+    </material>
+    <material id="material_001-material" name="material_001">
+      <instance_effect url="#material_001-effect"/>
+    </material>
+    <material id="edge_color000255_001-material" name="edge_color000255_001">
+      <instance_effect url="#edge_color000255_001-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="ID5-mesh" name="ID5">
+      <mesh>
+        <source id="ID5-mesh-positions">
+          <float_array id="ID5-mesh-positions-array" count="96">0 9.416275 2.279122 7.177165 9.416275 0 0 9.416275 0 7.177165 9.416275 2.279122 7.177165 9.416275 2.279122 0 9.416275 2.279122 7.177165 9.416275 0 0 9.416275 0 0 9.416275 0 7.177165 9.416275 0 0 9.416275 2.279122 7.177165 9.416275 2.279122 0 9.416275 2.279122 0 0 0 0 0 2.279122 0 9.416275 0 0 9.416275 0 0 9.416275 2.279122 0 0 0 0 0 2.279122 0 0 0 0 0 2.279122 7.177165 0 2.279122 0 0 0 7.177165 0 0 0 0 2.279122 0 0 2.279122 7.177165 0 2.279122 0 0 0 7.177165 0 0 7.177165 0 2.279122 7.177165 0 0</float_array>
+          <technique_common>
+            <accessor source="#ID5-mesh-positions-array" count="32" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ID5-mesh-normals">
+          <float_array id="ID5-mesh-normals-array" count="36">0 1 0 0 1 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#ID5-mesh-normals-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ID5-mesh-map-0">
+          <float_array id="ID5-mesh-map-0-array" count="72">-1.16643 -2.816092 -2.829927 2.422414 -2.829927 -2.816092 -2.829927 2.422414 -1.16643 -2.816092 -1.16643 2.422414 -2.16643 5.033359 -3.829927 -1.839437 -2.16643 -1.839437 -3.829927 -1.839437 -2.16643 5.033359 -3.829927 5.033359 2.83357 -4.422414 1.170073 0.816092 1.170073 -4.422414 1.170073 0.816092 2.83357 -4.422414 2.83357 0.816092 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</float_array>
+          <technique_common>
+            <accessor source="#ID5-mesh-map-0-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ID5-mesh-vertices">
+          <input semantic="POSITION" source="#ID5-mesh-positions"/>
+        </vertices>
+        <lines count="10">
+          <input semantic="VERTEX" source="#ID5-mesh-vertices" offset="0"/>
+          <p>9 8 10 8 11 10 11 9 20 8 21 20 10 21 30 21 31 20 30 31</p>
+        </lines>
+        <polylist material="Sketchy_Lines_Wavy_Vertical-material" count="6">
+          <input semantic="VERTEX" source="#ID5-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ID5-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#ID5-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 3 3 3 3 3 </vcount>
+          <p>0 0 0 1 0 1 2 0 2 1 1 3 0 1 4 3 1 5 12 2 6 13 2 7 14 2 8 13 3 9 12 3 10 15 3 11 22 4 12 23 4 13 24 4 14 23 5 15 22 5 16 25 5 17</p>
+        </polylist>
+        <polylist material="material_001-material" count="6">
+          <input semantic="VERTEX" source="#ID5-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ID5-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#ID5-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 3 3 3 3 3 </vcount>
+          <p>4 6 18 5 6 19 6 6 20 7 7 21 6 7 22 5 7 23 16 8 24 17 8 25 18 8 26 19 9 27 18 9 28 17 9 29 26 10 30 27 10 31 28 10 32 29 11 33 28 11 34 27 11 35</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Camera" name="Camera" type="NODE">
+        <matrix sid="transform">0.6858805 -0.3173701 0.6548619 7.481132 0.7276338 0.3124686 -0.6106656 -6.50764 -0.01081678 0.8953432 0.4452454 5.343665 0 0 0 1</matrix>
+        <instance_camera url="#Camera-camera"/>
+      </node>
+      <node id="Last_Saved_SketchUp_View" name="Last_Saved_SketchUp_View" type="NODE">
+        <matrix sid="transform">0 0 0 4.45728e30 0 0 0 0 0 0 0 3.82271e30 0 0 0 1</matrix>
+      </node>
+      <node id="Camera_001" name="Camera_001" type="NODE">
+        <matrix sid="transform">0.6858805 -0.3173701 0.6548619 7.481132 0.7276337 0.3124686 -0.6106656 -6.50764 -0.01081678 0.8953431 0.4452454 5.343665 0 0 0 1</matrix>
+        <instance_camera url="#Camera_001-camera"/>
+      </node>
+      <node id="Camera_001" name="Camera_001" type="NODE">
+        <matrix sid="transform">0.6858805 -0.31737 0.6548618 7.481132 0.7276337 0.3124685 -0.6106656 -6.50764 -0.01081678 0.8953429 0.4452453 5.343665 0 0 0 1</matrix>
+        <instance_camera url="#Camera_001-camera"/>
+      </node>
+      <node id="SketchUp" name="SketchUp" type="NODE">
+        <matrix sid="transform">0.0254 0 0 -0.09835002 0 0.0254 0 -0.1256084 0 0 0.01524 5.4754e-4 0 0 0 1</matrix>
+        <node id="Last_Saved_SketchUp_View" name="Last_Saved_SketchUp_View" type="NODE">
+          <matrix sid="transform">0 0 0 8.11842e28 0 0 0 -4.76837e-7 0 0 0 7.0291e28 0 0 0 1</matrix>
+        </node>
+        <node id="instance_0" name="instance_0" type="NODE">
+          <matrix sid="transform">1 0 0 2.38419e-7 0 1 0 -4.76837e-7 0 7.56979e-10 1 0 0 0 0 1</matrix>
+          <node id="group_0_001" name="group_0_001" type="NODE">
+            <matrix sid="transform">1 0 0 0.2519686 0 1 0 0.2199836 0 7.56979e-10 1 0.2330134 0 0 0 1</matrix>
+            <instance_geometry url="#ID5-mesh">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="Sketchy_Lines_Wavy_Vertical-material" target="#Sketchy_Lines_Wavy_Vertical-material">
+                    <bind_vertex_input semantic="ID5-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                  <instance_material symbol="material_001-material" target="#material_001-material">
+                    <bind_vertex_input semantic="ID5-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                  <instance_material symbol="edge_color000255_001-material" target="#edge_color000255_001-material">
+                    <bind_vertex_input semantic="ID5-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

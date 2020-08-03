@@ -1,0 +1,15 @@
+material toolbox_blue
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture metal_blue.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

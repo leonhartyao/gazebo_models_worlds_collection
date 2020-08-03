@@ -1,0 +1,333 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+ <model name="Wire_Shelf">
+<static>1</static>
+    <link name="lvl_1">
+	<pose>0 -0.015 0.78 0 0 0</pose>
+	<inertial>
+	  <mass>1.5306</mass>
+	   <inertia>
+	     <ixx>0.0162</ixx>
+	     <iyy>0.0475</iyy>
+	     <izz>0.0635</izz>
+    	     <ixy>0</ixy>
+	     <ixz>0</ixz>
+	     <iyz>0</iyz>
+	   </inertia>
+	</inertial>			
+	<collision name="body">
+	  <geometry>
+	    <box>
+	      <size> 0.6096 0.3556 0.0203 </size>
+	    </box>
+	  </geometry>
+	</collision>
+	<visual name="bodyMesh">
+	<pose>-0.32 0.005 -0.65  0 0  -1.58</pose>
+	  <geometry>
+	  <mesh>
+	    <uri>model://Wire_Shelf/meshes/level.dae</uri>
+		<scale> 0.81 0.68 0.8 </scale>
+	  </mesh>
+	  </geometry>
+	</visual>
+      </link>
+ <joint type="fixed" name="1_1"> 
+      <pose frame=''>-0.3048 0.1778 0 0 0 0</pose>
+         <parent>leg_1</parent>
+  	 <child>lvl_1</child>
+	 <axis>
+	   <xyz>1 0 0</xyz>
+	 </axis>
+       </joint> 
+
+   <joint type="fixed" name="1_2"> 
+      <pose frame=''>0.3048 0.1778 0 0 0 0</pose>
+         <parent>leg_2</parent>
+  	 <child>lvl_1</child>
+	 <axis>
+	   <xyz>1 0 0</xyz>
+	 </axis>
+       </joint> 
+
+   <joint type="fixed" name="1_3"> 
+      <pose frame=''>0.3048 -0.1778 0 0 0 0</pose>
+         <parent>leg_3</parent>
+  	 <child>lvl_1</child>
+	 <axis>
+	   <xyz>1 0 0</xyz>
+	 </axis>
+       </joint> 
+
+  <joint type="fixed" name="1_4"> 
+      <pose frame=''>-0.3048 -0.1778 0 0 0 0</pose>
+         <parent>leg_4</parent>
+  	 <child>lvl_1</child>
+	 <axis>
+	   <xyz>1 0 0</xyz>
+	 </axis>
+       </joint> 
+
+  <link name="lvl_2">
+	<pose> 0 -0.005 0.4549 0 0 0</pose>
+	<inertial>
+	  <mass>1.5306</mass>
+	   <inertia>
+	     <ixx>0.0162</ixx>
+	     <iyy>0.0475</iyy>
+	     <izz>0.0635</izz>
+    	     <ixy>0</ixy>
+	     <ixz>0</ixz>
+	     <iyz>0</iyz>
+	   </inertia>
+	</inertial>						
+	<collision name="body">
+	  <geometry>
+	    <box>
+	      <size> 0.6096 0.3561 0.0203 </size>
+	    </box>
+	  </geometry>
+	</collision>
+	<visual name="bodyMesh">
+	<pose>-0.32 -0.005 -0.65  0 0  -1.58</pose>
+	  <geometry>
+	  <mesh>
+	    <uri>model://Wire_Shelf/meshes/level.dae</uri>
+		<scale> 0.81 0.68 0.8 </scale>
+	  </mesh>
+	  </geometry>
+	</visual>
+      </link>
+
+   <joint type="fixed" name="2_1"> 
+      <pose frame=''>-0.3048 0.1778 0 0 0 0</pose>
+         <parent>leg_1</parent>
+  	 <child>lvl_2</child>
+	 <axis>
+	   <xyz>1 0 0</xyz>
+	 </axis>
+       </joint> 
+
+   <joint type="fixed" name="2_2"> 
+      <pose frame=''>0.3048 0.1778 0 0 0 0</pose>
+         <parent>leg_2</parent>
+  	 <child>lvl_2</child>
+	 <axis>
+	   <xyz>1 0 0</xyz>
+	 </axis>
+       </joint> 
+
+   <joint type="fixed" name="2_3"> 
+      <pose frame=''>0.3048 -0.1778 0 0 0 0</pose>
+         <parent>leg_3</parent>
+  	 <child>lvl_2</child>
+	 <axis>
+	   <xyz>1 0 0</xyz>
+	 </axis>
+       </joint> 
+
+  <joint type="fixed" name="2_4"> 
+      <pose frame=''>-0.3048 -0.1778 0 0 0 0</pose>
+         <parent>leg_4</parent>
+  	 <child>lvl_2</child>
+	 <axis>
+	   <xyz>1 0 0</xyz>
+	 </axis>
+       </joint> 
+
+
+  <link name="lvl_3">
+	<pose> 0 -0.005 0.12976 0 0 0</pose>
+	<inertial>
+	  <mass>1.5306</mass>
+	   <inertia>
+	     <ixx>0.0162</ixx>
+	     <iyy>0.0475</iyy>
+	     <izz>0.0635</izz>
+    	     <ixy>0</ixy>
+	     <ixz>0</ixz>
+	     <iyz>0</iyz>
+	   </inertia>
+	</inertial>			
+	<collision name="body">
+	  <geometry>
+	    <box>
+	      <size> 0.6096 0.3556 0.0203 </size>
+	    </box>
+	  </geometry>
+	</collision>
+	<visual name="bodyMesh">
+	<pose>-0.32 -0.005 -0.65  0 0  -1.58</pose>
+	  <geometry>
+	  <mesh>
+	    <uri>model://Wire_Shelf/meshes/level.dae</uri>
+		<scale> 0.81 0.68 0.8 </scale>
+	  </mesh>
+	  </geometry>
+	</visual>
+      </link>
+
+ <joint type="fixed" name="3_1"> 
+      <pose frame=''>-0.3048 0.1778 0 0 0 0</pose>
+         <parent>leg_1</parent>
+  	 <child>lvl_3</child>
+	 <axis>
+	   <xyz>1 0 0</xyz>
+	 </axis>
+       </joint> 
+
+   <joint type="fixed" name="3_2"> 
+      <pose frame=''>0.3048 0.1778 0 0 0 0</pose>
+         <parent>leg_2</parent>
+  	 <child>lvl_3</child>
+	 <axis>
+	   <xyz>1 0 0</xyz>
+	 </axis>
+       </joint> 
+
+   <joint type="fixed" name="3_3"> 
+      <pose frame=''>0.3048 -0.1778 0 0 0 0</pose>
+         <parent>leg_3</parent>
+  	 <child>lvl_3</child>
+	 <axis>
+	   <xyz>1 0 0</xyz>
+	 </axis>
+       </joint> 
+
+  <joint type="fixed" name="3_4"> 
+      <pose frame=''>-0.3048 -0.1778 0 0 0 0</pose>
+         <parent>leg_4</parent>
+  	 <child>lvl_3</child>
+	 <axis>
+	   <xyz>1 0 0</xyz>
+	 </axis>
+       </joint> 
+
+ <link name="leg_1">
+	<pose> -0.3048 0.1673 0.381 0 0 0</pose>
+	<inertial>
+	  <mass>0.0483</mass>
+	   <inertia>
+	     <ixx>0.0023</ixx>
+	     <iyy>0.0023</iyy>
+	     <izz>0.0000014023</izz>
+    	     <ixy>0</ixy>
+	     <ixz>0</ixz>
+	     <iyz>0</iyz>
+	   </inertia>
+	</inertial>				
+	<collision name="body">
+	  <geometry>
+	    <cylinder>
+	      <radius> 0.007620 </radius>
+	      <length> 0.762 </length>
+	    </cylinder>
+	  </geometry>
+	</collision>
+	<visual name="bodyMesh">
+	<pose>-0.0122  0.01 -1.3655  0 0  -1.58</pose>
+	  <geometry>
+	  <mesh>
+	    <uri>model://Wire_Shelf/meshes/leg.dae</uri>
+		<scale> 0.8 0.8 0.95 </scale>
+	  </mesh>
+	  </geometry>
+	</visual>
+      </link>
+  <link name="leg_2">
+	<pose>0.3202  0.1643 0.381 0 0 0</pose>
+	<inertial>
+	  <mass>0.0483</mass>
+	   <inertia>
+	     <ixx>0.0023</ixx>
+	     <iyy>0.0023</iyy>
+	     <izz>0.0000014023</izz>
+    	     <ixy>0</ixy>
+	     <ixz>0</ixz>
+	     <iyz>0</iyz>
+	   </inertia>
+	</inertial>				
+	<collision name="body">
+	 <geometry>
+	    <cylinder>
+	      <radius> 0.007620 </radius>
+	      <length> 0.762 </length>
+	    </cylinder>
+	  </geometry>
+	</collision>
+	<visual name="bodyMesh">
+	<pose>-0.0122  0.01 -1.3655  0 0  -1.58</pose>
+	  <geometry>
+	  <mesh>
+	    <uri>model://Wire_Shelf/meshes/leg.dae</uri>
+		<scale> 0.8 0.8 0.95 </scale>
+	  </mesh>
+	  </geometry>
+	</visual>
+      </link>
+
+  <link name="leg_3">
+	<pose> 0.3152 -0.1927 0.381 0 0 0</pose>
+	<inertial>
+	  <mass>0.0483</mass>
+	   <inertia>
+	     <ixx>0.0023</ixx>
+	     <iyy>0.0023</iyy>
+	     <izz>0.0000014023</izz>
+    	     <ixy>0</ixy>
+	     <ixz>0</ixz>
+	     <iyz>0</iyz>
+	   </inertia>
+	</inertial>			
+	<collision name="body">
+	 <geometry>
+	    <cylinder>
+	      <radius> 0.007620 </radius>
+	      <length> 0.762 </length>
+	    </cylinder>
+	  </geometry>
+	</collision>
+	<visual name="bodyMesh">
+	<pose>-0.0122  0.005 -1.3655  0 0  -1.58</pose>
+	  <geometry>
+	  <mesh>
+	    <uri>model://Wire_Shelf/meshes/leg.dae</uri>
+		<scale> 0.8 0.8 0.95 </scale>
+	  </mesh>
+	  </geometry>
+	</visual>
+      </link>
+  <link name="leg_4">
+
+      <pose> -0.3098 -0.1877 0.381 0 0 0</pose>
+	<inertial>
+	  <mass>0.0483</mass>
+	   <inertia>
+	     <ixx>0.0023</ixx>
+	     <iyy>0.0023</iyy>
+	     <izz>0.0000014023</izz>
+    	     <ixy>0</ixy>
+	     <ixz>0</ixz>
+	     <iyz>0</iyz>
+	   </inertia>
+	</inertial>			
+	<collision name="body">
+	  <geometry>
+	    <cylinder>
+	      <radius> 0.007620 </radius>
+	      <length> 0.762 </length>
+	    </cylinder>
+	  </geometry>
+	</collision>
+	<visual name="bodyMesh">
+	<pose>-0.0122  0.005 -1.3655  0 0  -1.58</pose>
+	  <geometry>
+	  <mesh>
+	    <uri>model://Wire_Shelf/meshes/leg.dae</uri>
+		<scale> 0.8 0.8 0.95 </scale>
+	  </mesh>
+	  </geometry>
+	</visual>
+      </link>
+ </model>
+</sdf>

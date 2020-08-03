@@ -1,0 +1,756 @@
+<sdf version='1.6'>
+  <world name='city_1'>
+    <gui fullscreen='0'>
+      <camera name='city_camera'>
+        <pose frame=''>26.184 -142.371 57.9707 0 0.621795 1.44818</pose>
+        <view_controller>orbit</view_controller>
+        <projection_type>perspective</projection_type>
+      </camera>
+    </gui>
+    <light name='sun' type='directional'>
+      <cast_shadows>1</cast_shadows>
+      <pose frame=''>0 0 10 0 -0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+    <model name='groundPlane_2'>
+      <static>1</static>
+      <pose frame=''>0 0 0 0 -0 0</pose>
+      <link name='groundPlane_2_link'>
+        <collision name='groundPlane_2'>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>574.748 574.748</size>
+            </plane>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>100</mu>
+                <mu2>50</mu2>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='groundPlane_2'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>574.748 574.748</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+          <transparency>1</transparency>
+        </visual>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <road name='OSM_24090114'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>-55.9212 262.632 0</point>
+      <point>-33.4819 163.878 0</point>
+      <point>-30.7388 117.231 0</point>
+      <point>-33.3456 77.5868 0</point>
+    </road>
+    <road name='OSM_197920260'>
+      <width>8</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Primary</name>
+        </script>
+      </material>
+      <point>170.994 -286.131 0</point>
+      <point>171.398 -287.374 0</point>
+    </road>
+    <road name='OSM_197920263'>
+      <width>8</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Primary</name>
+        </script>
+      </material>
+      <point>135.341 -186.322 0</point>
+      <point>132.614 -209.168 0</point>
+      <point>132.492 -220.585 0</point>
+      <point>134.18 -231.614 0</point>
+      <point>142.167 -251.48 0</point>
+      <point>149.311 -261.229 0</point>
+    </road>
+    <road name='OSM_25804809'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>149.311 -261.229 0</point>
+      <point>131.589 -268.356 0</point>
+      <point>66.5581 -259.741 0</point>
+      <point>3.29066 -241.154 0</point>
+      <point>-23.1106 -241.209 0</point>
+      <point>-52.7722 -255.361 0</point>
+    </road>
+    <road name='OSM_197920266'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>181.74 195.765 0</point>
+      <point>165.775 190.984 0</point>
+    </road>
+    <road name='OSM_197920267'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>213.687 205.338 0</point>
+      <point>181.74 195.765 0</point>
+    </road>
+    <road name='OSM_197920265'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>165.775 190.984 0</point>
+      <point>127.977 179.31 0</point>
+    </road>
+    <road name='OSM_76399690'>
+      <width>8</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Primary</name>
+        </script>
+      </material>
+      <point>137.262 -81.4873 0</point>
+      <point>135.476 -75.6508 0</point>
+      <point>129.707 -69.8811 0</point>
+      <point>120.39 -68.1581 0</point>
+    </road>
+    <road name='OSM_24090187'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>-31.4751 278.574 0</point>
+      <point>-55.9212 262.632 0</point>
+      <point>-64.8881 258.252 0</point>
+      <point>-106.66 247.491 0</point>
+      <point>-131.099 243.456 0</point>
+      <point>-203.647 229.807 0</point>
+      <point>-215.928 229.396 0</point>
+    </road>
+    <road name='OSM_196599424'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>187.274 -77.128 0</point>
+      <point>160.561 -78.6852 0</point>
+      <point>137.262 -81.4873 0</point>
+    </road>
+    <road name='OSM_96247940'>
+      <width>8</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Primary</name>
+        </script>
+      </material>
+      <point>120.39 -68.1581 0</point>
+      <point>112.875 -71.549 0</point>
+      <point>108.361 -78.3417 0</point>
+      <point>107.715 -81.6657 0</point>
+    </road>
+    <road name='OSM_76244613'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>127.977 179.31 0</point>
+      <point>110.469 174.029 0</point>
+    </road>
+    <road name='OSM_76244625'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>110.469 174.029 0</point>
+      <point>83.8262 165.391 0</point>
+      <point>79.8139 164.335 0</point>
+      <point>76.0827 162.745 0</point>
+    </road>
+    <road name='OSM_23096004'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>-190.579 -61.0191 0</point>
+      <point>-195.374 -69.8793 0</point>
+      <point>-201.872 -81.2631 0</point>
+      <point>-203.552 -86.8327 0</point>
+    </road>
+    <road name='OSM_96247964'>
+      <width>8</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Primary</name>
+        </script>
+      </material>
+      <point>126.235 -97.0849 0</point>
+      <point>130.111 -95.4617 0</point>
+      <point>134.032 -92.0598 0</point>
+      <point>137.262 -81.4873 0</point>
+    </road>
+    <road name='OSM_196599455'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>-207.302 25.3841 0</point>
+      <point>-204.85 -42.3195 0</point>
+      <point>-202.927 -46.8109 0</point>
+      <point>-199.196 -55.1045 0</point>
+      <point>-190.579 -61.0191 0</point>
+    </road>
+    <road name='OSM_196599456'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>-212.58 132.987 0</point>
+      <point>-211.548 100.036 0</point>
+      <point>-207.849 40.5035 0</point>
+      <point>-207.302 25.3841 0</point>
+    </road>
+    <road name='OSM_164953272'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>234.429 -159.822 0</point>
+      <point>225.274 -169.933 0</point>
+      <point>217.166 -182.996 0</point>
+      <point>210.616 -199.627 0</point>
+      <point>208.747 -221.384 0</point>
+      <point>209.682 -236.003 0</point>
+    </road>
+    <road name='OSM_164953278'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>234.429 -131.225 0</point>
+      <point>201.669 -129.99 0</point>
+      <point>188.012 -129.468 0</point>
+    </road>
+    <road name='OSM_71852740'>
+      <width>8</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Primary</name>
+        </script>
+      </material>
+      <point>149.311 -261.229 0</point>
+      <point>166.913 -278.827 0</point>
+      <point>170.994 -286.131 0</point>
+    </road>
+    <road name='OSM_164953285'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>188.012 -129.468 0</point>
+      <point>170.951 -128.901 0</point>
+    </road>
+    <road name='OSM_24090319'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>234.429 -81.3605 0</point>
+      <point>226.532 -80.3728 0</point>
+    </road>
+    <road name='OSM_60224742'>
+      <width>8</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Primary</name>
+        </script>
+      </material>
+      <point>126.235 -97.0849 0</point>
+      <point>128.234 -101.621 0</point>
+      <point>130.727 -105.723 0</point>
+      <point>135.028 -122.865 0</point>
+      <point>137.955 -143.265 0</point>
+      <point>136.527 -176.35 0</point>
+      <point>135.341 -186.322 0</point>
+    </road>
+    <road name='OSM_24088814'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>-234.452 -136.93 0</point>
+      <point>-213.798 -131.668 0</point>
+      <point>-203.173 -131.313 0</point>
+    </road>
+    <road name='OSM_24090356'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>-190.579 -61.0191 0</point>
+      <point>-175.897 -63.1096 0</point>
+      <point>-45.6955 -71.1608 0</point>
+    </road>
+    <road name='OSM_556297978'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>-33.3456 77.5868 0</point>
+      <point>-33.7864 70.8832 0</point>
+    </road>
+    <road name='OSM_556297981'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>-33.7864 70.8832 0</point>
+      <point>-39.3116 -13.2404 0</point>
+      <point>-45.6955 -71.1608 0</point>
+      <point>-53.6838 -207.624 0</point>
+      <point>-52.7722 -255.361 0</point>
+      <point>-55.4511 -287.374 0</point>
+    </road>
+    <road name='OSM_86419757'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>-197.318 -237.671 0</point>
+      <point>-234.452 -249.434 0</point>
+    </road>
+    <road name='OSM_196599512'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>-45.6955 -71.1608 0</point>
+      <point>107.715 -81.6657 0</point>
+    </road>
+    <road name='OSM_196599519'>
+      <width>8</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Primary</name>
+        </script>
+      </material>
+      <point>-31.4751 278.574 0</point>
+      <point>-38.6168 287.384 0</point>
+    </road>
+    <road name='OSM_24090436'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>-195.396 -275.969 0</point>
+      <point>-190.859 -275.847 0</point>
+      <point>-94.4493 -277.239 0</point>
+      <point>-52.7722 -255.361 0</point>
+    </road>
+    <road name='OSM_109652295'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>-215.928 229.396 0</point>
+      <point>-221.702 239.601 0</point>
+      <point>-226.885 241.358 0</point>
+    </road>
+    <road name='OSM_109652296'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>-218.29 263.181 0</point>
+      <point>-215.928 229.396 0</point>
+    </road>
+    <road name='OSM_109652299'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>-218.29 263.181 0</point>
+      <point>-219.726 256.8 0</point>
+      <point>-220.973 251.975 0</point>
+      <point>-222.143 249.196 0</point>
+      <point>-223.26 247.106 0</point>
+      <point>-225.061 244.137 0</point>
+      <point>-226.885 241.358 0</point>
+      <point>-229.142 238.757 0</point>
+      <point>-231.832 235.978 0</point>
+      <point>-234.452 234.022 0</point>
+    </road>
+    <road name='OSM_665105273'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>192.587 -122.208 0</point>
+      <point>182.707 -113.403 0</point>
+    </road>
+    <road name='OSM_665105274'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>192.587 -122.208 0</point>
+      <point>201.669 -129.99 0</point>
+    </road>
+    <road name='OSM_219736444'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>-218.233 287.384 0</point>
+      <point>-217.765 269.051 0</point>
+      <point>-217.803 267.005 0</point>
+      <point>-218.29 263.181 0</point>
+    </road>
+    <road name='OSM_71829403'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>-215.928 229.396 0</point>
+      <point>-215.312 220.124 0</point>
+      <point>-212.58 132.987 0</point>
+    </road>
+    <road name='OSM_197920268'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>234.429 212.457 0</point>
+      <point>229.219 210.308 0</point>
+      <point>213.687 205.338 0</point>
+    </road>
+    <road name='OSM_136825760'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>-195.396 -275.969 0</point>
+      <point>-196.775 -287.374 0</point>
+    </road>
+    <road name='OSM_24090534'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>187.274 -77.128 0</point>
+      <point>188.102 -69.6906 0</point>
+      <point>187.691 -62.2643 0</point>
+      <point>184.294 -52.4813 0</point>
+      <point>179.84 -45.133 0</point>
+      <point>170.751 -34.0717 0</point>
+      <point>164.413 -24.1109 0</point>
+      <point>158.379 -8.99168 0</point>
+      <point>151.485 37.8337 0</point>
+      <point>148.444 62.2914 0</point>
+      <point>147.798 89.0504 0</point>
+      <point>90.4083 89.2827 0</point>
+    </road>
+    <road name='OSM_23622618'>
+      <width>8</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Primary</name>
+        </script>
+      </material>
+      <point>120.39 -68.1581 0</point>
+      <point>116.567 -43.7449 0</point>
+      <point>102.242 0.601206 0</point>
+      <point>90.4083 89.2827 0</point>
+      <point>84.9969 140.533 0</point>
+      <point>76.0827 162.745 0</point>
+      <point>-31.4751 278.574 0</point>
+    </road>
+    <road name='OSM_82212834'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>214.145 -78.5278 0</point>
+      <point>187.274 -77.128 0</point>
+    </road>
+    <road name='OSM_82212835'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>226.532 -80.3728 0</point>
+      <point>214.145 -78.5278 0</point>
+    </road>
+    <road name='OSM_23622628'>
+      <width>8</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Primary</name>
+        </script>
+      </material>
+      <point>107.715 -81.6657 0</point>
+      <point>109.63 -90.1259 0</point>
+      <point>114.798 -95.4064 0</point>
+      <point>126.235 -97.0849 0</point>
+    </road>
+    <road name='OSM_206020521'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>-234.452 225.346 0</point>
+      <point>-219.507 227.895 0</point>
+      <point>-215.928 229.396 0</point>
+    </road>
+    <road name='OSM_197920249'>
+      <width>4</width>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Residential</name>
+        </script>
+      </material>
+      <point>-203.552 -86.8327 0</point>
+      <point>-203.173 -131.313 0</point>
+      <point>-197.318 -237.671 0</point>
+      <point>-195.396 -275.969 0</point>
+    </road>
+    <gravity>0 0 -9.8</gravity>
+    <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
+    <atmosphere type='adiabatic'/>
+    <physics name='default_physics' default='0' type='ode'>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+    <scene>
+      <ambient>0.4 0.4 0.4 1</ambient>
+      <background>0.7 0.7 0.7 1</background>
+      <shadows>1</shadows>
+    </scene>
+    <spherical_coordinates>
+      <surface_model>EARTH_WGS84</surface_model>
+      <latitude_deg>0</latitude_deg>
+      <longitude_deg>0</longitude_deg>
+      <elevation>0</elevation>
+      <heading_deg>0</heading_deg>
+    </spherical_coordinates>
+    <model name='city_osm_roundabout'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://city_osm_roundabout/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://city_osm_roundabout/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>0.386309 1.37702 0 0 -0 0</pose>
+    </model>
+    <state world_name='city_1'>
+      <sim_time>704 970000000</sim_time>
+      <real_time>535 565155536</real_time>
+      <wall_time>1555578910 159096907</wall_time>
+      <iterations>522839</iterations>
+      <model name='city_osm_roundabout'>
+        <pose frame=''>0.906746 -0.253434 -0.135114 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose frame=''>0.906746 -0.253434 -0.135114 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='groundPlane_2'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='groundPlane_2_link'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <light name='sun'>
+        <pose frame=''>0 0 10 0 -0 0</pose>
+      </light>
+    </state>
+  </world>
+</sdf>

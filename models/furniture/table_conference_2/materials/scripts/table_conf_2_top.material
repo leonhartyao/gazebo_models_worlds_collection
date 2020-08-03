@@ -1,0 +1,15 @@
+material table_conf_2_top
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture conf_wood_2.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

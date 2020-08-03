@@ -1,0 +1,15 @@
+material book_6
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture cover6.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

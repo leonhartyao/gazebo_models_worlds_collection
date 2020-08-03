@@ -1,0 +1,15 @@
+material beer
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture beer.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

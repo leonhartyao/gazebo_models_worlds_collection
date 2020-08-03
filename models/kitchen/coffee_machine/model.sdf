@@ -1,0 +1,131 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='coffee_machine'>
+    <link name='link_0'>
+        <visual name='visual'>
+      
+        <geometry>
+          <mesh>
+            <uri>model://coffee_machine/meshes/body.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://coffee_machine/materials/scripts</uri>
+            <uri>model://coffee_machine/materials/textures</uri>
+            <name>coffee_body</name>
+          </script>
+        </material>
+        <cast_shadows>0</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://coffee_machine/meshes/body.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+       </collision>
+    </link>
+    <link name='link_1'>
+       <visual name='visual'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://coffee_machine/meshes/panel.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://coffee_machine/materials/scripts</uri>
+            <uri>model://coffee_machine/materials/textures</uri>
+            <name>coffee_panel</name>
+          </script>
+        </material>
+        <cast_shadows>0</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://coffee_machine/meshes/panel.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+         </collision>
+    </link>
+    <link name='link_2'>
+        <visual name='visual'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://coffee_machine/meshes/sivler.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+         	<material>
+          <script>
+            <uri>model://coffee_machine/materials/scripts</uri>
+            <uri>model://coffee_machine/materials/textures</uri>
+            <name>coffee_shaft</name>
+          </script>
+        </material>
+        <cast_shadows>0</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://coffee_machine/meshes/sivler.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+          </collision>
+    </link>
+    <link name='link_3'>
+      <visual name='visual'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://coffee_machine/meshes/drain.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+          	<material>
+          <script>
+            <uri>model://coffee_machine/materials/scripts</uri>
+            <uri>model://coffee_machine/materials/textures</uri>
+            <name>coffee_drain</name>
+          </script>
+        </material>
+        <cast_shadows>0</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://coffee_machine/meshes/drain.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+       </collision>
+    </link>
+    <static>1</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>

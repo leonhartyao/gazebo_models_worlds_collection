@@ -1,0 +1,15 @@
+material venus
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Stone_Granite_Midnite.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

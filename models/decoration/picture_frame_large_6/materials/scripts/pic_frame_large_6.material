@@ -1,0 +1,15 @@
+material pic_frame_large_6
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture robot_2.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

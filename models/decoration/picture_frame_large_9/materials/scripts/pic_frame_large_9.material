@@ -1,0 +1,15 @@
+material pic_frame_large_9
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture happy_bot.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

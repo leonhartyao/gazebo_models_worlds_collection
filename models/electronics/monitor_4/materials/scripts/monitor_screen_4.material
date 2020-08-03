@@ -1,0 +1,15 @@
+material monitor_screen_4
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture prog_screen_2.png
+	scale 1 1
+      }
+    }
+  }
+}
+

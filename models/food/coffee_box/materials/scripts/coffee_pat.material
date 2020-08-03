@@ -1,0 +1,15 @@
+material coffee_pat
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture coffee_box.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='file_cabinet_large'>
+    <link name='link_2'>
+         <visual name='visual'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://file_cabinet_large/meshes/model.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+          <material>
+          <script>
+            <uri>model://file_cabinet_large/materials/scripts</uri>
+            <uri>model://file_cabinet_large/materials/textures</uri>
+            <name>file_black</name>
+          </script>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://file_cabinet_large/meshes/model.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        </collision>
+    </link>
+    <static>1</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>

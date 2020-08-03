@@ -1,0 +1,15 @@
+material bookshelf
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture wood_dark_4.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

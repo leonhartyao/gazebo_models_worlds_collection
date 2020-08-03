@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='lamp_large'>
+    <link name='link_0'>
+      <pose frame=''>0.438972 0.033388 0.265807 0 -0 0</pose>
+       <visual name='visual'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://lamp_large/meshes/base.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <lighting>1</lighting>
+            <ambient>0 0 0 1</ambient>
+          <diffuse>0.2 0.2 0.2 1</diffuse>
+          <specular>0.01 0.01 0.01 1</specular>
+          <emissive>0.2 0.2 0.2 1</emissive>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://lamp_large/meshes/base.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+       </collision>
+    </link>
+    <link name='link_1'>
+      <pose frame=''>0.438658 0.032085 0.259589 0 -0 0</pose>
+         <visual name='visual'>
+         <geometry>
+          <mesh>
+            <uri>model://lamp_large/meshes/head.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <lighting>1</lighting>
+         
+          <ambient>0.6980 0.7960 0.4392 1</ambient>
+          <diffuse>0.6980 0.7960 0.4392 1</diffuse>
+          <specular>0.01 0.01 0.01 1</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://lamp_large/meshes/head.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+       </collision>
+    </link>
+    <static>1</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>

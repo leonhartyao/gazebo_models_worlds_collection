@@ -1,0 +1,14 @@
+material rubber
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture rubber.png
+	scale 0.05 0.05
+      }
+    }
+  }
+}

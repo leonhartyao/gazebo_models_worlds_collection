@@ -1,0 +1,15 @@
+material pic_frame_small_1
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture bot.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

@@ -1,0 +1,15 @@
+material side_table_2
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture brown_dark_3.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

@@ -1,0 +1,15 @@
+material laptop_pc_silver
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture silver.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

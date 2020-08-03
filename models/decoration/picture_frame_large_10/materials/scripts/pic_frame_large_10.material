@@ -1,0 +1,15 @@
+material pic_frame_large_10
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture sea.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

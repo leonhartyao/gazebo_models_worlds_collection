@@ -1,0 +1,15 @@
+material tea_pat
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture tea1.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

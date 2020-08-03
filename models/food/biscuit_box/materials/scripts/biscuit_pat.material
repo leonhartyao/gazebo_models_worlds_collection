@@ -1,0 +1,16 @@
+material biscuit_pat
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+	rotate 90
+        texture biscuit_red.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

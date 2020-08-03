@@ -1,0 +1,14 @@
+material fanta
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture fanta.jpg
+ 	scale 1 1 1
+      }
+    }
+  }
+}

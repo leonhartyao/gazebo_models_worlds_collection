@@ -1,0 +1,15 @@
+material camera_silver
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture metal_shinny.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

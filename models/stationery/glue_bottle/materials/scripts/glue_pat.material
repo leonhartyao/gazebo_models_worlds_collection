@@ -1,0 +1,15 @@
+material glue_pat
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture glue.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

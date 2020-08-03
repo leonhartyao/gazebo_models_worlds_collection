@@ -1,0 +1,15 @@
+material drawer_white
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture d_white2.jpg
+	scale 0.5 0.5
+      }
+    }
+  }
+}
+

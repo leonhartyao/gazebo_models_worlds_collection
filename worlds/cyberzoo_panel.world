@@ -1,0 +1,336 @@
+<sdf version='1.6'>
+  <world name='cyberzoo'>
+    <physics name='default_physics' default='0' type='ode'>
+      <max_step_size>0.001</max_step_size>
+      <real_time_update_rate>0</real_time_update_rate>
+      <real_time_factor>1</real_time_factor>
+    </physics>
+    <scene>
+      <ambient>0.9 0.9 0.9 1</ambient>
+      <background>0.7 0.7 0.7 1</background>
+      <origin_visual>0</origin_visual>
+      <shadows>0</shadows>
+    </scene>
+    <spherical_coordinates>
+      <surface_model>EARTH_WGS84</surface_model>
+      <latitude_deg>51.9906</latitude_deg>
+      <longitude_deg>4.37679</longitude_deg>
+      <elevation>45.11</elevation>
+      <heading_deg>180</heading_deg>
+    </spherical_coordinates>
+    <model name='ground_plane'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>100</mu>
+                <mu2>50</mu2>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='visual'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>0 0 -0.02 0 -0 0.454</pose>
+    </model>
+    <model name='cyberzoo_model'>
+      <static>1</static>
+      <pose frame=''>0 0 0 0 -0 0.454</pose>
+      <link name='cyberzoo_link'>
+        <visual name='floor'>
+          <pose frame=''>-5 -5 0.01 0 -0 0</pose>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://cyberzoo/cyberzoo_floor.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='floor_collision'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>10 10 0.02</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='poles'>
+          <pose frame=''>-5 -5 0 0 -0 0</pose>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://cyberzoo/cyberzoo_poles.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://cyberzoo/cyberzoo_poles</uri>
+              <name>Cyberzoo/Poles</name>
+            </script>
+          </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <visual name='wires'>
+          <pose frame=''>-5 -5 0 0 -0 0</pose>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://cyberzoo/cyberzoo_wires.dae</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <visual name='cams'>
+          <pose frame=''>-5 -5 0 0 -0 0</pose>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://cyberzoo/cyberzoo_cams.dae</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <visual name='lighting'>
+          <pose frame=''>-5 -5 0 0 -0 0</pose>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://cyberzoo/cyberzoo_lighting.dae</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <visual name='glow'>
+          <pose frame=''>-5 -5 0 0 -0 0</pose>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://cyberzoo/cyberzoo_lighting_glow.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://cyberzoo/cyberzoo_lighting_glow</uri>
+              <name>Cyberzoo/Glow</name>
+            </script>
+          </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <visual name='walls'>
+          <pose frame=''>-5 -5 0 0 -0 0</pose>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://cyberzoo/cyberzoo_walls.dae</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>1</layer>
+          </meta>
+        </visual>
+        <visual name='net'>
+          <pose frame=''>-5 -5 0 0 -0 0</pose>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://cyberzoo/cyberzoo_net.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://cyberzoo/cyberzoo_net</uri>
+              <name>Cyberzoo/Net</name>
+            </script>
+          </material>
+          <meta>
+            <layer>1</layer>
+          </meta>
+        </visual>
+        <visual name='surroundings'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://cyberzoo/cyberzoo_surroundings.dae</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>2</layer>
+          </meta>
+        </visual>
+        <visual name='toolcart'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://cyberzoo/cyberzoo_toolcart.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://cyberzoo/cyberzoo_toolcart</uri>
+              <name>Cyberzoo/Toolcart</name>
+            </script>
+          </material>
+          <meta>
+            <layer>2</layer>
+          </meta>
+        </visual>
+        <visual name='outer_walls'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://cyberzoo/cyberzoo_outer_walls.dae</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>3</layer>
+          </meta>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <gravity>0 0 -9.8</gravity>
+    <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
+    <atmosphere type='adiabatic'/>
+    <audio>
+      <device>default</device>
+    </audio>
+    <wind/>
+    <model name='textured panel_0'>
+      <static>1</static>
+      <pose frame=''>-1.70498 0.310464 0 0 -0 0</pose>
+      <link name='textured panel'>
+        <visual name='panel'>
+          <geometry>
+            <mesh>
+              <uri>model://textured_panel_3m9/textured_panel_3m.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='panel_collision'>
+          <geometry>
+            <mesh>
+              <uri>model://textured_panel_3m9/textured_panel_3m.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <state world_name='cyberzoo'>
+      <sim_time>21532 98000000</sim_time>
+      <real_time>182 332739594</real_time>
+      <wall_time>1549286571 723295755</wall_time>
+      <iterations>21532098</iterations>
+      <model name='cyberzoo_model'>
+        <pose frame=''>0 0 0 0 -0 0.454</pose>
+        <scale>1 1 1</scale>
+        <link name='cyberzoo_link'>
+          <pose frame=''>0 0 0 0 -0 0.454</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='ground_plane'>
+        <pose frame=''>0 0 -0.02 0 -0 0.454</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose frame=''>0 0 -0.02 0 -0 0.454</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='textured panel_0'>
+        <pose frame=''>-1.735 3.25428 -0 0 -0 0.471706</pose>
+        <scale>1 1 1</scale>
+        <link name='textured panel'>
+          <pose frame=''>-1.735 3.25428 -0 0 -0 0.471706</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+    </state>
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose frame=''>-2.88851 -5.34327 7.90515 0 0.743643 1.5402</pose>
+        <view_controller>orbit</view_controller>
+        <projection_type>perspective</projection_type>
+      </camera>
+    </gui>
+  </world>
+</sdf>

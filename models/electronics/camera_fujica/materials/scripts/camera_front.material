@@ -1,0 +1,15 @@
+material camera_front
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture camera_front.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

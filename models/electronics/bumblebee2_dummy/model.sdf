@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+ <model name="bumblebee2_dummy">
+      <link name="link">
+	<pose>0 0 0.018 0 0 0</pose>
+	<inertial>
+	  <mass>0.342</mass>
+	   <inertia>
+	     <ixx>0.000739430</ixx>
+	     <iyy>0.000099893</iyy>
+	     <izz>0.000765450</izz>
+    	     <ixy>0</ixy>
+	     <ixz>0</ixz>
+	     <iyz>0</iyz>
+	   </inertia>
+	</inertial>				
+	<collision name="body">
+	  <geometry>
+	    <box>
+	      <size> 0.047000 0.157000 0.036000</size>
+	    </box>
+	  </geometry>
+	</collision>
+	<visual name="bodyMesh">
+	<pose>0 0 0 -1.57 0 -1.57</pose>
+	  <geometry>
+	  <mesh>
+	    <uri>model://bumblebee2_dummy/meshes/bumblebee2.dae</uri>
+	
+	  </mesh>
+	  </geometry>
+	</visual>
+      </link>
+ </model>
+</sdf>

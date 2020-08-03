@@ -1,0 +1,15 @@
+material coffee_shaft
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture steel.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

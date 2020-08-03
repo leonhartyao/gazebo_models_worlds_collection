@@ -1,0 +1,263 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='sofa_set_1'>
+    <link name='link_6'>
+      <pose frame=''>-0.077061 -0.368992 -0.019897 0 -0 0</pose>
+        <visual name='visual'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://sofa_set_1/meshes/sofa_frame.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <lighting>1</lighting>
+          <ambient>0.7 0.7 0.7 1</ambient>
+          <diffuse>0.7 0.7 0.7 1</diffuse>
+          <specular>0.01 0.01 0.01 1</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://sofa_set_1/meshes/sofa_frame.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+       </collision>
+    </link>
+    <link name='link_13'>
+      <pose frame=''>-0.073825 -0.365482 -0.019897 0 -0 0</pose>
+         <visual name='visual'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://sofa_set_1/meshes/sofa_cushions_bot.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+          <material>
+          <script>
+            <uri>model://sofa_set_1/materials/scripts</uri>
+            <uri>model://sofa_set_1/materials/textures</uri>
+            <name>sofa_set_1</name>
+          </script>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://sofa_set_1/meshes/sofa_cushions_bot.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        </collision>
+    </link>
+    <link name='link_13_clone'>
+      <pose frame=''>-0.754653 -0.363822 -0.019897 0 -0 0</pose>
+         <visual name='visual'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://sofa_set_1/meshes/sofa_cushions_bot.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+                 <material>
+          <script>
+            <uri>model://sofa_set_1/materials/scripts</uri>
+            <uri>model://sofa_set_1/materials/textures</uri>
+            <name>sofa_set_1</name>
+          </script>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://sofa_set_1/meshes/sofa_cushions_bot.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+       </collision>
+    </link>
+    <link name='link_13_clone_clone'>
+      <pose frame=''>-1.425951 -0.36377 -0.019897 0 -0 0</pose>
+       <visual name='visual'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://sofa_set_1/meshes/sofa_cushions_bot.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+               <material>
+          <script>
+            <uri>model://sofa_set_1/materials/scripts</uri>
+            <uri>model://sofa_set_1/materials/textures</uri>
+            <name>sofa_set_1</name>
+          </script>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://sofa_set_1/meshes/sofa_cushions_bot.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        </collision>
+    </link>
+    <link name='link_14'>
+      <pose frame=''>-0.073103 -0.373571 -0.019897 0 -0 0</pose>
+        <visual name='visual'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://sofa_set_1/meshes/sofa_cushions_back.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+                 <material>
+          <script>
+            <uri>model://sofa_set_1/materials/scripts</uri>
+            <uri>model://sofa_set_1/materials/textures</uri>
+            <name>sofa_set_1</name>
+          </script>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://sofa_set_1/meshes/sofa_cushions_back.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+       </collision>
+    </link>
+    <link name='link_14_clone'>
+      <pose frame=''>0.596985 -0.374279 -0.019897 0 -0 0</pose>
+       <visual name='visual'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://sofa_set_1/meshes/sofa_cushions_back.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+                 <material>
+          <script>
+            <uri>model://sofa_set_1/materials/scripts</uri>
+            <uri>model://sofa_set_1/materials/textures</uri>
+            <name>sofa_set_1</name>
+          </script>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://sofa_set_1/meshes/sofa_cushions_back.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        </collision>
+    </link>
+    <link name='link_14_clone_clone'>
+      <pose frame=''>1.271119 -0.373824 -0.019897 0 -0 0</pose>
+         <visual name='visual'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://sofa_set_1/meshes/sofa_cushions_back.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+                 <material>
+          <script>
+            <uri>model://sofa_set_1/materials/scripts</uri>
+            <uri>model://sofa_set_1/materials/textures</uri>
+            <name>sofa_set_1</name>
+          </script>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://sofa_set_1/meshes/sofa_cushions_back.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+       </collision>
+    </link>
+    <link name='link_9'>
+      <pose frame=''>-0.075683 -0.364116 -0.019897 0 -0 0</pose>
+         <visual name='visual'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://sofa_set_1/meshes/sofa_cushions_sides.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+                 <material>
+          <script>
+            <uri>model://sofa_set_1/materials/scripts</uri>
+            <uri>model://sofa_set_1/materials/textures</uri>
+            <name>sofa_set_1</name>
+          </script>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://sofa_set_1/meshes/sofa_cushions_sides.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+       </collision>
+    </link>
+    <static>1</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>

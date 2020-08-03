@@ -1,0 +1,237 @@
+<?xml version='1.0'?>
+<sdf version='1.5'>
+  <model name='Zed_dummy'>
+  <pose>0 0 0.008247 -1.57 0 -1.57</pose>
+    <link name='frame'>
+<inertial>
+ 	 <mass>0.342</mass>
+	   <inertia>
+	     <ixx>0.000056687</ixx>
+	     <iyy>0.00089846</iyy>
+	     <izz>0.00090385</izz>
+    	     <ixy>0</ixy>
+	     <ixz>0</ixz>
+	     <iyz>0</iyz>
+	   </inertia>
+</inertial>
+	<pose frame=''>0 0.008 -0.018575 0 -0 0</pose>
+      <visual name='visual'>
+         <geometry>
+          <mesh>
+            <uri>model://Zed_dummy/meshes/frame.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+     <material>
+          <script>
+            <uri>model://Zed_dummy/materials/scripts</uri>
+            <uri>model://Zed_dummy/materials/textures</uri>
+            <name>silver_zed</name>
+          </script>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+
+      <collision name='collision'>
+	<pose frame=''>0 -0.008 0.017575 0 -0 0</pose>
+       	  <geometry>
+	    <box>
+	      <size> 0.175 0.029 0.035 </size>
+	    </box>
+	  </geometry>
+       </collision>
+    </link>
+
+    <link name='lenses'>
+      <pose frame=''>0 0.008 -0.018575 0 -0 0</pose>
+ 	<inertial>
+	<pose frame=''>0 -0.005 0.015 0 -0 0</pose>
+	  <mass>0.00001</mass>
+	   <inertia>
+	     <ixx>0</ixx>
+	     <iyy>0</iyy>
+	     <izz>0</izz>
+    	     <ixy>0</ixy>
+	     <ixz>0</ixz>
+	     <iyz>0</iyz>
+	   </inertia>
+	</inertial>
+        <visual name='visual'>
+              <geometry>
+          <mesh>
+            <uri>model://Zed_dummy/meshes/lenses.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+             <material>
+          <lighting>1</lighting>
+            <ambient>0.25 0 0.5 1</ambient>
+          <diffuse>0.45 0 0.9 1</diffuse>
+          <specular>0.01 0.01 0.01 1</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0.5</transparency>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+    	 <box>
+	      <size> 0.0001 0.0001 0.0001 </size>
+	    </box>
+        </geometry>
+       </collision>
+
+    </link>
+    <link name='panel_up'>
+     <pose frame=''>0 0.008 0.035727 0 -0 0</pose>
+      <inertial>
+	<pose frame=''>0 -0.005 -0.02 0 -0 0</pose>
+	  <mass>0.00001</mass>
+	   <inertia>
+	     <ixx>0.0</ixx>
+	     <iyy>0.0</iyy>
+	     <izz>0.00</izz>
+    	     <ixy>0</ixy>
+	     <ixz>0</ixz>
+	     <iyz>0</iyz>
+	   </inertia>
+	</inertial>	
+         <visual name='visual'>
+         <geometry>
+          <mesh>
+            <uri>model://Zed_dummy/meshes/panel.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+         <material>
+          <lighting>1</lighting>
+          <ambient>0 0 0 1</ambient>
+          <diffuse>0.1 0.1 0.1 1</diffuse>
+          <specular>0.01 0.01 0.01 1</specular>
+          <emissive>0 0 0 1</emissive>
+          <shader type='vertex'>
+            <normal_map>__default__</normal_map>
+          </shader>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+	
+        <geometry>
+           <box>
+	     <size> 0.0001 0.0001 0.0001 </size>
+	    </box>
+        </geometry>
+       </collision>
+    </link>
+
+
+    <link name='panel_down'>
+ 	<pose frame=''>0 0.008 0.001099 0 -0 0</pose>
+      <inertial>
+<pose frame=''>0 -0.005 -0.02 0 -0 0</pose>
+         <mass>0.00001</mass>
+	   <inertia>
+	     <ixx>0</ixx>
+	     <iyy>0</iyy>
+	     <izz>0</izz>
+    	     <ixy>0</ixy>
+	     <ixz>0</ixz>
+	     <iyz>0</iyz>
+	   </inertia>
+	</inertial>
+        <visual name='visual'>
+        <geometry>
+          <mesh>
+            <uri>model://Zed_dummy/meshes/panel.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <lighting>1</lighting>
+          <ambient>0 0 0 1</ambient>
+          <diffuse>0.1 0.1 0.1 1</diffuse>
+          <specular>0.01 0.01 0.01 1</specular>
+          <emissive>0 0 0 1</emissive>
+          <shader type='vertex'>
+            <normal_map>__default__</normal_map>
+          </shader>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+
+        <geometry>
+          <box>
+	       <size> 0.0001 0.0001 0.0001 </size>
+	    </box>
+        </geometry>
+       </collision>
+    </link>
+
+     <joint type="fixed" name="lenses_joint_left">
+      <pose>-0.06 0 0.015 0 0 0</pose>
+      <child>lenses</child>
+      <parent>frame</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+         <use_parent_model_frame>true</use_parent_model_frame>
+      </axis>
+     </joint>
+
+     <joint type="fixed" name="lenses_joint_right">
+      <pose> 0.06 0 0.015 0 0 0</pose>
+      <child>lenses</child>
+      <parent>frame</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+         <use_parent_model_frame>true</use_parent_model_frame>
+      </axis>
+     </joint>
+
+    <joint type="fixed" name="panel_up_left">
+      <pose>0.06 0 -0.015 0 0 0</pose>
+      <child>panel_up</child>
+      <parent>frame</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+         <use_parent_model_frame>true</use_parent_model_frame>
+      </axis>
+     </joint>
+
+    <joint type="fixed" name="panel_up_right">
+      <pose>-0.06 0 -0.015 0 0 0</pose>
+      <child>panel_up</child>
+      <parent>frame</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+         <use_parent_model_frame>true</use_parent_model_frame>
+      </axis>
+     </joint>
+
+    <joint type="fixed" name="panel_down_left">
+     <pose>-0.06 0 0 0 0 0</pose>
+      <child>panel_down</child>
+      <parent>frame</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+         <use_parent_model_frame>true</use_parent_model_frame>
+      </axis>
+     </joint>
+
+    <joint type="fixed" name="panel_down_right">
+     <pose>0.06 0 0 0 0 0</pose>
+      <child>panel_down</child>
+      <parent>frame</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+         <use_parent_model_frame>true</use_parent_model_frame>
+      </axis>
+     </joint>
+    <static>1</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>

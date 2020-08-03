@@ -1,0 +1,259 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='Wall_Cabinet_24x15M'>
+    <link name='Wall_41'>
+	<pose frame=''>0 0 0.01 0 -0 0</pose>
+	<inertial>
+	  <mass>1.4983</mass>
+	   <inertia>
+	     <ixx>0.0110</ixx>
+	     <iyy>0.0571</iyy>
+	     <izz>0.0462</izz>
+    	     <ixy>0</ixy>
+	     <ixz>0</ixz>
+	     <iyz>0</iyz>
+	   </inertia>
+	</inertial>
+      <collision name='Wall_41_Collision'>
+        <geometry>
+          <box>
+            <size>0.608 0.296 0.02 </size>
+          </box>
+        </geometry>
+    
+      </collision>
+      <visual name='Wall_41_Visual'>
+      
+        <geometry>
+          <box>
+            <size>0.608 0.296 0.02</size>
+          </box>
+        </geometry>
+       <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>1 0.764706 0.305882 1</ambient>
+        </material>
+      </visual>
+      <pose frame=''>0.000184 0.181953 0 0 -0 0</pose>
+    </link>
+
+     <joint type="fixed" name="41_43"> 
+      <pose frame=''>-0.304 0 0 0 0 0</pose>
+         <parent>Wall_43</parent>
+  	 <child>Wall_41</child>
+	 <axis>
+	   <xyz>0 0 1</xyz>
+	 </axis>
+       </joint> 
+   <joint type="fixed" name="41_45"> 
+          <pose frame=''>0.304 0 0 0 0 0</pose>
+         <parent>Wall_45</parent>
+  	 <child>Wall_41</child>
+	 <axis>
+	   <xyz>0 0 1</xyz>
+	 </axis>
+       </joint> 
+
+   <joint type="fixed" name="41_49"> 
+      <pose frame=''>0 -0.148 0 0 0 0</pose>
+         <parent>Wall_49</parent>
+  	 <child>Wall_41</child>
+	 <axis>
+	   <xyz>0 0 1</xyz>
+	 </axis>
+       </joint> 
+
+    <link name='Wall_43'>
+     <pose frame=''>-0.294 0 0.192 0 0 0</pose>
+	<inertial>
+	  <mass>0.9463</mass>
+	   <inertia>
+	     <ixx>0.0069</ixx>
+	     <iyy>0.0185</iyy>
+	     <izz>0.0117</izz>
+    	     <ixy>0</ixy>
+	     <ixz>0</ixz>
+	     <iyz>0</iyz>
+	   </inertia>
+	</inertial>
+      <collision name='Wall_43_Collision'>
+        <geometry>
+          <box>
+            <size> 0.02 0.296 0.384</size>
+          </box>
+        </geometry>
+       </collision>
+      <visual name='Wall_43_Visual'>
+         <geometry>
+          <box>
+            <size>0.02 0.296 0.384</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>1 0.764706 0.305882 1</ambient>
+        </material>
+      </visual>
+     </link>
+
+    <link name='Wall_45'>
+       <pose frame=''>0.294 0 0.192 0 0 0</pose>
+	<inertial>
+	  <mass>0.9463</mass>
+	   <inertia>
+	     <ixx>0.0069</ixx>
+	     <iyy>0.0185</iyy>
+	     <izz>0.0117</izz>
+    	     <ixy>0</ixy>
+	     <ixz>0</ixz>
+	     <iyz>0</iyz>
+	   </inertia>
+	</inertial>
+      <collision name='Wall_45_Collision'>
+        <geometry>
+          <box>
+            <size> 0.02 0.296 0.384</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_45_Visual'>
+        <geometry>
+          <box>
+            <size>0.02 0.296 0.384</size>
+          </box>
+        </geometry>
+     <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>1 0.764706 0.305882 1</ambient>
+        </material>
+      </visual>
+     </link>
+
+    <link name='Wall_47'>
+	<pose frame=''>0 0 0.374 0 0 0</pose>
+	<inertial>
+	  <mass>1.4983</mass>
+	   <inertia>
+	     <ixx>0.0110</ixx>
+	     <iyy>0.0571</iyy>
+	     <izz>0.0462</izz>
+    	     <ixy>0</ixy>
+	     <ixz>0</ixz>
+	     <iyz>0</iyz>
+	   </inertia>
+	</inertial>
+      <collision name='Wall_47_Collision'>
+        <geometry>
+          <box>
+            <size>0.608 0.296 0.02 </size>
+          </box>
+        </geometry>
+        </collision>
+      <visual name='Wall_47_Visual'>
+         <geometry>
+          <box>
+            <size>0.608 0.296 0.02</size>
+          </box>
+        </geometry>
+       <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>1 0.764706 0.305882 1</ambient>
+        </material>
+      </visual>
+      
+    </link>
+     <joint type="fixed" name="47_43"> 
+      <pose frame=''>-0.304 0 0 0 0 0</pose>
+         <parent>Wall_43</parent>
+  	 <child>Wall_47</child>
+	 <axis>
+	   <xyz>0 0 1</xyz>
+	 </axis>
+       </joint> 
+   <joint type="fixed" name="47_45"> 
+          <pose frame=''>0.304 0 0 0 0 0</pose>
+         <parent>Wall_45</parent>
+  	 <child>Wall_47</child>
+	 <axis>
+	   <xyz>0 0 1</xyz>
+	 </axis>
+       </joint> 
+
+   <joint type="fixed" name="47_49"> 
+      <pose frame=''>0  -0.148 0 0 0 0</pose>
+         <parent>Wall_49</parent>
+  	 <child>Wall_47</child>
+	 <axis>
+	   <xyz>0 0 1</xyz>
+	 </axis>
+       </joint> 
+
+    <link name='Wall_49'>
+ 	<pose frame=''>0 -0.138 0.190 0 0 0</pose>
+	<inertial>
+	  <mass>1.9108</mass>
+	   <inertia>
+	     <ixx>0.0231</ixx>
+	     <iyy>0.0582</iyy>
+	     <izz>0.0811</izz>
+    	     <ixy>0</ixy>
+	     <ixz>0</ixz>
+	     <iyz>0</iyz>
+	   </inertia>
+	</inertial>
+      <collision name='Wall_49_Collision'>
+        <geometry>
+          <box>
+            <size>0.604 0.02 0.38</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_49_Visual'>
+        <geometry>
+          <box>
+            <size>0.604 0.02 0.38</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>1 0.764706 0.305882 1</ambient>
+        </material>
+      </visual>
+    </link>
+
+   <joint type="fixed" name="49_43"> 
+          <pose frame=''> -0.302 0 0  0 0 0</pose>
+         <parent>Wall_41</parent>
+  	 <child>Wall_49</child>
+	 <axis>
+	   <xyz>0 1 0</xyz>
+	 </axis>
+       </joint> 
+
+   <joint type="fixed" name="49_45"> 
+      <pose frame=''> 0.302 0 0  0 0 0</pose>
+         <parent>Wall_45</parent>
+  	 <child>Wall_49</child>
+	 <axis>
+	   <xyz>0 1 0</xyz>
+	 </axis>
+       </joint> 
+
+    <static>1</static>
+  </model>
+</sdf>

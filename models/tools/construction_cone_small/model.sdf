@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="Construction Cone Small">
+    <link name="link">
+      <inertial>
+    <mass>1.500</mass>
+     <inertia>
+       <ixx>0.00045417</ixx>
+       <iyy>0.00054170</iyy>
+       <izz>0.00007500</izz>
+       <ixy>0</ixy>
+       <ixz>0</ixz>
+       <iyz>0</iyz>
+     </inertia>
+  </inertial>   
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <scale>3 3 3</scale>
+            <uri>model://construction_cone_jtl/meshes/construction_cone.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <scale>3 3 3</scale>
+            <uri>model://construction_cone_jtl/meshes/construction_cone.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

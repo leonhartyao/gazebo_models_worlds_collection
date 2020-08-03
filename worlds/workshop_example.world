@@ -1,0 +1,151 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <world name="default">
+  <scene>
+    <shadows>true</shadows>
+  </scene>
+  <!-- A global light source-->
+  <light name='sun' type='directional'>
+      <cast_shadows>1</cast_shadows>
+      <pose frame=''>0 0 10 0 -0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.5 -1</direction>
+  </light>
+  <!-- the  gravity is new, alternatively can be included in model-->
+  <physics type='ode'>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+      <gravity>0 0 -9.8</gravity>
+  </physics>
+
+  <!-- A ground plane -->
+  <include> 
+    <uri>model://ground_plane</uri>
+  </include>
+  <include>
+    <pose>0 0 0 0 0 0</pose>
+	  <uri>model://Workshop</uri>
+  </include>
+  <include>
+	  <pose>-1.936710 -0.343286 0.013 0 0 -1.57</pose>
+	  <uri>model://Box_15x30</uri>
+  </include>
+  <include>
+	  <pose>1.636 -0.3 0.013 0 0 0</pose>
+	  <uri>model://Box_33x15</uri>
+  </include>
+  <include>
+	  <pose>0.8 -0.3 0.013 0 0 0</pose>
+	  <uri>model://Box_33x15</uri>
+  </include>
+
+  <include>
+	  <pose>1.658951 1.141109 0.013 0 0 0</pose>
+	  <uri>model://Box_36x15W</uri>
+  </include>
+  <include>
+	  <pose>0 1.986729 0.013002 0 0 0</pose> 
+	  <uri>model://6_Cube_StorageE</uri>
+  </include>
+  <include>
+	  <pose>-0.653226 -1.356719 0.013 0 0 0</pose>
+	  <uri>model://Box_24x15M</uri>
+  </include>
+  <include>
+	  <pose>-1.184366 0.857670 0.013 0 0 0</pose>
+	  <uri>model://Box_24x15W</uri>
+  </include>
+  <include>
+	  <pose>-2.755265 -1.706117 0.001995 0 0 -1.570 </pose>
+	  <uri>model://Wire_Shelf</uri>
+  </include>
+  <include>
+	  <pose>-2.710050 1.858030 0.013 0 0 -1.574973 </pose>
+	  <uri>model://Wall_Cabinet_Coin_24x30W</uri>
+  </include>
+
+    <!-- Artifcats-->
+
+     <include>
+  <pose>0.798794 -0.269038 0.332 -0.000002 0.00 -0.382842 </pose>
+  <uri>model://toolbox_metal</uri>
+     </include>
+      <include>
+  <pose>-0.152712 1.99071 -0.031998 -0.00002 0.00 0.00</pose>
+  <uri>model://toolbox_metal_blue</uri>
+     </include>
+      <include>
+  <pose>0.0443 1.991597 0.947936 0.194664 1.558386 0.000047</pose>
+  <uri>model://pole</uri>
+     </include>
+      <include>
+  <pose>-0.543168 -1.427654 0.342315 -0.000022 -0.000010 0.023819</pose>
+  <uri>model://coca_cola</uri>
+     </include>
+
+      <include>
+  <pose>0.133016 1.972813 0.633002 0.00 0.00 -1.648960</pose>
+  <uri>model://Zed_dummy</uri>
+     </include>
+      <include>
+  <pose>-0.158743 1.956058 0.633002 0.00 0.00 -1.189297</pose>
+  <uri>model://bumblebee2_dummy</uri>
+     </include>
+      <include>
+  <pose>-1.368901 0.851027 0.430154 -1.550844 1.485024 -1.423645</pose>
+  <uri>model://cordless_drill</uri>
+     </include>
+      <include>
+  <pose>2.756128 1.844506 0.015644 0.000314 -0.010301 0.004754</pose>
+  <uri>model://construction_cone_small</uri>
+     </include>
+      <include>
+  <pose>2.95466 2.098111 0.01299 0.00 0.00 0.000034</pose>
+  <uri>model://construction_cone_small</uri>
+     </include>
+      <include>
+  <pose>2.927490 1.903970 0.00 0.00 0.00 0.00</pose>
+  <uri>model://construction_cone_small</uri>
+     </include>
+      <include>
+  <pose>-1.931904 -0.350209 0.405200 0.256459 0.035147 0.014050</pose>
+  <uri>model://monkey_wrench</uri>
+     </include>
+      <include>
+  <pose>0.494702 -0.272052 0.405977 0.005484 0.004055 -1.402678</pose>
+  <uri>model://monkey_wrench</uri>
+     </include>
+      <include>
+  <pose>-2.756142 0.652103 0.012998 0.00 0.000012 -0.001068</pose>
+  <uri>model://first_2015_trash_can</uri>
+     </include>
+      <include>
+  <pose>1.636094 -0.243330 0.425198 0.00 0.00 0.153326</pose>
+  <uri>model://hammer</uri>
+     </include>
+      <include>
+  <pose>1.250714 -0.272789 0.416818 0.00 0.00 -0.310473</pose>
+  <uri>model://hammer</uri>
+     </include>
+      <include>
+  <pose>2.140769 1.133599 0.588714 3.141593 -0.01203 3.141593</pose>
+  <uri>model://standpipe</uri>
+     </include>
+      <include>
+  <pose>1.410258 1.102871 0.396594 0.021135 -0.024223 -0.000242</pose>
+  <uri>model://washer</uri>
+     </include>
+      <include>
+  <pose>1.325672 1.164408 0.396676 0.012398 -0.011495 0.000071</pose>
+  <uri>model://washer</uri>
+     </include>
+  </world>
+</sdf>

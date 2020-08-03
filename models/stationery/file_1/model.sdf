@@ -1,0 +1,91 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='file_1'>
+    <link name='link_0'>
+      <visual name='visual'>
+        <geometry>
+          <mesh>
+            <uri>model://file_1/meshes/body.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <lighting>1</lighting>
+          <ambient>0.4 0.1 0.1 1</ambient>
+          <diffuse>0.4 0.0 0.0 1</diffuse>
+          <specular>0.01 0.01 0.01 1</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+         <geometry>
+          <mesh>
+            <uri>model://file_1/meshes/body.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+    <link name='link_1'>
+       <visual name='visual'>
+        <geometry>
+          <mesh>
+            <uri>model://file_1/meshes/ring.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+ 	<material>
+           <ambient>0.6 0.6 0.6 1</ambient>
+          <diffuse>0.6 0.6 0.6 1</diffuse>
+          <specular>0.01 0.01 0.01 1</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <mesh>
+            <uri>model://file_1/meshes/ring.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+         </collision>
+    </link>
+    <link name='link_2'>
+      <visual name='visual'>
+          <geometry>
+          <mesh>
+            <uri>model://file_1/meshes/tag.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <lighting>1</lighting>
+         <ambient> 1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.01 0.01 0.01 1</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <geometry>
+          <mesh>
+            <uri>model://file_1/meshes/tag.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+    <static>1</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>

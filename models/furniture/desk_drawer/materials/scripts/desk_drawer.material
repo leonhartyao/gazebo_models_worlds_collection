@@ -1,0 +1,15 @@
+material desk_drawer
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture w1.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

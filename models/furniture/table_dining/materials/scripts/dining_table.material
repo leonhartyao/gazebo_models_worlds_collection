@@ -1,0 +1,15 @@
+material dining_table
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture wood_black_3.png
+	scale 0.5 0.5
+      }
+    }
+  }
+}
+

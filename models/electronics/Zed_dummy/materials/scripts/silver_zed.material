@@ -1,0 +1,15 @@
+material silver_zed
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture silver_zed.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

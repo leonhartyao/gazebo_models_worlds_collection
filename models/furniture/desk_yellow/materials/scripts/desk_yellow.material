@@ -1,0 +1,15 @@
+material desk_yellow
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture d_yellow.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

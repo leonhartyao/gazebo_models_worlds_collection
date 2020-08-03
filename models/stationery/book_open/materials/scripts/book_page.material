@@ -1,0 +1,15 @@
+material book_page
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture page.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

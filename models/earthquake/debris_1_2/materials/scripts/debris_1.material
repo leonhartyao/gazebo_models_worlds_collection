@@ -1,0 +1,15 @@
+material debris_1
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture debris_1.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

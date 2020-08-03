@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='wall_debris'>
+    <link name='link_11'>
+
+      <visual name='visual'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://wall_debris/meshes/wall_debris.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+           	<material>
+          <script>
+            <uri>model://wall_debris/materials/scripts</uri>
+            <uri>model://wall_debris/materials/textures</uri>
+            <name>wall</name>
+          </script>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://wall_debris/meshes/wall_debris.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+       
+      </collision>
+    </link>
+    <static>1</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>

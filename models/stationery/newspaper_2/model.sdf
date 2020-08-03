@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='newspaper_2'>
+    <link name='link_0'>
+       <visual name='visual'>
+       <geometry>
+          <box>
+            <size>0.35 0.25 0.02</size>
+          </box>
+        </geometry>
+       	<material>
+          <script>
+            <uri>model://newspaper_2/materials/scripts</uri>
+            <uri>model://newspaper_2/materials/textures</uri>
+            <name>newspaper_2</name>
+          </script>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.35 0.25 0.02</size>
+          </box>
+        </geometry>
+       </collision>
+    </link>
+    <static>1</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>
