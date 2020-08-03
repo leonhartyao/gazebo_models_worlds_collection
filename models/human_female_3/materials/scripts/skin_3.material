@@ -1,0 +1,15 @@
+material skin_3
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture skin_2.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

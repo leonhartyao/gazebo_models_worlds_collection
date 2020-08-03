@@ -1,0 +1,15 @@
+material wall
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture wall_color.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

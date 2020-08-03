@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='door_3d'>
+    <link name='link_1'>
+        <visual name='visual'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://door_3d/meshes/door_v2_door.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+       	<material>
+          <script>
+            <uri>model://door_3d/materials/scripts</uri>
+            <uri>model://door_3d/materials/textures</uri>
+            <name>door_3d</name>
+          </script>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://door_3d/meshes/door_v2_door.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+       </collision>
+    </link>
+    <link name='link_2'>
+         <visual name='visual'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://door_3d/meshes/door_v2_handle.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+           	<material>
+          <script>
+            <uri>model://door_3d/materials/scripts</uri>
+            <uri>model://door_3d/materials/textures</uri>
+            <name>door_handle</name>
+          </script>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://door_3d/meshes/door_v2_handle.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        </collision>
+    </link>
+    <static>1</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>

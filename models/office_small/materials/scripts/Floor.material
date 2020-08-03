@@ -1,0 +1,15 @@
+material floor
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture cp12.jpg
+	scale 0.2 0.2
+      }
+    }
+  }
+}
+

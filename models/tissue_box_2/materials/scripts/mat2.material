@@ -1,0 +1,15 @@
+material mat2
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture tissue_pattern2.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

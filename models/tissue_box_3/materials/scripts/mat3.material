@@ -1,0 +1,15 @@
+material mat3
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture tissue_pattern3.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

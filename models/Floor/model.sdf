@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='Floor'>
+    <link name='main'>
+	<pose frame=''>0 0 0.01 0 0 0</pose>
+      <collision name='main_Collision'>
+        <geometry>
+          <box>
+            <size>40 40 0.01 </size>
+          </box>
+        </geometry>
+       </collision>
+      <visual name='main_Visual'>
+        <geometry>
+          <box>
+          <size>40 40 0.01</size>
+	</box>
+        </geometry>
+           <material>
+          <script>
+            <uri>model://Floor/materials/scripts</uri>
+            <uri>model://Floor/materials/textures</uri>
+            <name>floor</name>
+          </script>
+        </material>
+	<!--material>
+          <lighting>1</lighting>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0 0 0 1</specular>
+          <emissive>0 0 0 1</emissive>
+          <shader type='vertex'>
+            <normal_map>__default__</normal_map>
+          </shader>
+        </material-->
+      </visual>
+     </link>
+    <static>1</static>
+  </model>
+</sdf>

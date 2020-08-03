@@ -1,0 +1,15 @@
+material hair_3
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture hair_3.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

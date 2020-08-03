@@ -1,0 +1,41 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='blue_bin_cuboid'>
+    <link name='link_0'>
+       <visual name='visual'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://blue_bin_cuboid/meshes/blue_bin.stl</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <lighting>1</lighting>
+             <ambient>0.074 0.074 0.937 1</ambient>
+          <diffuse>0.3 0.3 0.937 1</diffuse>
+          <specular>0.01 0.01 0.01 1</specular>
+          <emissive>0.01 0.01 0.01 1</emissive>
+          <shader type='vertex'>
+            <normal_map>__default__</normal_map>
+          </shader>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://blue_bin_cuboid/meshes/blue_bin.stl</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+       </collision>
+    </link>
+    <static>1</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>

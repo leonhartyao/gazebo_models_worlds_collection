@@ -1,0 +1,15 @@
+material door_3d
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture door_3d.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

@@ -1,0 +1,15 @@
+material wall_white
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture wall_color_white.jpg
+	scale 0.25 0.25
+      }
+    }
+  }
+}
+

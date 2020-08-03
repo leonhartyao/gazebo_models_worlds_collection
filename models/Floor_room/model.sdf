@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='Floor_room'>
+    <link name='main'>
+	<pose frame=''>0 0 0.01 0 0 0</pose>
+      <collision name='main_Collision'>
+        <geometry>
+          <box>
+            <size>20 20 0.001 </size>
+          </box>
+        </geometry>
+       </collision>
+      <visual name='main_Visual'>
+        <geometry>
+          <box>
+          <size>20 20 0.001</size>
+          </box>
+        </geometry>
+           <material>
+          <script>
+            <uri>model://Floor_room/materials/scripts</uri>
+            <uri>model://Floor_room/materials/textures</uri>
+            <name>floor_room</name>
+          </script>
+        </material>
+      </visual>
+     </link>
+    <static>1</static>
+  </model>
+</sdf>

@@ -1,0 +1,1174 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='office_env_w'>
+    <pose frame=''>-0.097844 0.056836 0 0 -0 0</pose>
+    <link name='Wall_10'>
+      <pose frame=''>-5.46873 -9.925 0 0 -0 0</pose>
+      <visual name='Wall_10_Visual_0'>
+        <pose frame=''>-2.62812 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>3.99376 0.15 2.5</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_10_Collision_0'>
+        <geometry>
+          <box>
+            <size>3.99376 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-2.62812 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_10_Visual_1'>
+        <pose frame=''>1.99688 0 0.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>5.25624 0.15 0.5</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_10_Collision_1'>
+        <geometry>
+          <box>
+            <size>5.25624 0.15 0.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>1.99688 0 0.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_10_Visual_2'>
+        <pose frame=''>2.39688 0 1.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>4.45624 0.15 2</size>
+          </box>
+        </geometry>
+            	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_10_Collision_2'>
+        <geometry>
+          <box>
+            <size>4.45624 0.15 2</size>
+          </box>
+        </geometry>
+        <pose frame=''>2.39688 0 1.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_10_Visual_3'>
+        <pose frame=''>-0.231239 0 1.9 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.8 0.15 1.2</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_10_Collision_3'>
+        <geometry>
+          <box>
+            <size>0.8 0.15 1.2</size>
+          </box>
+        </geometry>
+        <pose frame=''>-0.231239 0 1.9 0 -0 0</pose>
+      </collision>
+    </link>
+
+   <include>
+	<pose frame=''>-5.699969 -9.925 0 0 0 0</pose>
+	<uri>model://window_broken</uri>
+   </include>
+
+    <link name='Wall_11'>
+      <collision name='Wall_11_Collision'>
+        <geometry>
+          <box>
+            <size>2 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_11_Visual'>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2 0.15 2.5</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose frame=''>-0.918728 -9 0 0 -0 1.5708</pose>
+    </link>
+    <link name='Wall_12'>
+      <pose frame=''>0.006272 -8.075 0 0 -0 0</pose>
+      <visual name='Wall_12_Visual_0'>
+        <pose frame=''>-0.695653 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.608694 0.15 2.5</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_12_Collision_0'>
+        <geometry>
+          <box>
+            <size>0.608694 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-0.695653 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_12_Visual_1'>
+        <pose frame=''>0.754347 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.491306 0.15 2.5</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_12_Collision_1'>
+        <geometry>
+          <box>
+            <size>0.491306 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0.754347 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_12_Visual_2'>
+        <pose frame=''>0.058694 0 2.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.9 0.15 0.5</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_12_Collision_2'>
+        <geometry>
+          <box>
+            <size>0.9 0.15 0.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0.058694 0 2.25 0 -0 0</pose>
+      </collision>
+    </link>
+ 
+ <include>
+<pose frame=''>0.064966 -8.062 0 0 -0 0</pose>
+	<uri>model://door_3d</uri>
+</include>
+
+    <link name='Wall_15'>
+      <collision name='Wall_15_Collision'>
+        <geometry>
+          <box>
+            <size>2 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_15_Visual'>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2 0.15 2.5</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose frame=''>0.931272 -9 0 0 0 -1.5708</pose>
+    </link>
+    <link name='Wall_16'>
+      <pose frame=''>5.48127 -9.925 0 0 -0 0</pose>
+      <visual name='Wall_16_Visual_0'>
+        <pose frame=''>-1.61303 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>6.02393 0.15 2.5</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_16_Collision_0'>
+        <geometry>
+          <box>
+            <size>6.02393 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-1.61303 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_16_Visual_1'>
+        <pose frame=''>3.01197 0 0.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>3.22607 0.15 0.5</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_16_Collision_1'>
+        <geometry>
+          <box>
+            <size>3.22607 0.15 0.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>3.01197 0 0.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_16_Visual_2'>
+        <pose frame=''>3.41197 0 1.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2.42607 0.15 2</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_16_Collision_2'>
+        <geometry>
+          <box>
+            <size>2.42607 0.15 2</size>
+          </box>
+        </geometry>
+        <pose frame=''>3.41197 0 1.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_16_Visual_3'>
+        <pose frame=''>1.79893 0 1.9 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.8 0.15 1.2</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_16_Collision_3'>
+        <geometry>
+          <box>
+            <size>0.8 0.15 1.2</size>
+          </box>
+        </geometry>
+        <pose frame=''>1.79893 0 1.9 0 -0 0</pose>
+      </collision>
+    </link>
+
+
+  <include>
+	<pose frame=''>7.2802 -9.925 0 0 0 0</pose>
+	<uri>model://window_broken</uri>
+   </include>
+
+    <link name='Wall_17'>
+      <pose frame=''>10.0313 0 0 0 -0 1.5708</pose>
+      <visual name='Wall_17_Visual_0'>
+        <pose frame=''>-8.12184 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>3.75631 0.15 2.5</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_17_Collision_0'>
+        <geometry>
+          <box>
+            <size>3.75631 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-8.12184 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_17_Visual_1'>
+        <pose frame=''>3.09096 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>6.45362 0.15 2.5</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_17_Collision_1'>
+        <geometry>
+          <box>
+            <size>6.45362 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>3.09096 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_17_Visual_2'>
+        <pose frame=''>-3.63977 0 0.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>5.20784 0.15 0.5</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_17_Collision_2'>
+        <geometry>
+          <box>
+            <size>5.20784 0.15 0.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-3.63977 0 0.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_17_Visual_3'>
+        <pose frame=''>8.15888 0 0.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>3.68223 0.15 0.5</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_17_Collision_3'>
+        <geometry>
+          <box>
+            <size>3.68223 0.15 0.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>8.15888 0 0.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_17_Visual_4'>
+        <pose frame=''>-3.23977 0 1.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>4.40784 0.15 2</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_17_Collision_4'>
+        <geometry>
+          <box>
+            <size>4.40784 0.15 2</size>
+          </box>
+        </geometry>
+        <pose frame=''>-3.23977 0 1.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_17_Visual_5'>
+        <pose frame=''>-3.23977 0 1.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>4.40784 0.15 2</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_17_Collision_5'>
+        <geometry>
+          <box>
+            <size>4.40784 0.15 2</size>
+          </box>
+        </geometry>
+        <pose frame=''>-3.23977 0 1.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_17_Visual_6'>
+        <pose frame=''>8.55889 0 1.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2.88223 0.15 2</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_17_Collision_6'>
+        <geometry>
+          <box>
+            <size>2.88223 0.15 2</size>
+          </box>
+        </geometry>
+        <pose frame=''>8.55889 0 1.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_17_Visual_7'>
+        <pose frame=''>-5.84369 0 1.9 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.8 0.15 1.2</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_17_Collision_7'>
+        <geometry>
+          <box>
+            <size>0.8 0.15 1.2</size>
+          </box>
+        </geometry>
+        <pose frame=''>-5.84369 0 1.9 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_17_Visual_8'>
+        <pose frame=''>6.71777 0 1.9 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.8 0.15 1.2</size>
+          </box>
+        </geometry>
+         	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_17_Collision_8'>
+        <geometry>
+          <box>
+            <size>0.8 0.15 1.2</size>
+          </box>
+        </geometry>
+        <pose frame=''>6.71777 0 1.9 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_17_Visual_9'>
+        <pose frame=''>-0.585848 0 2.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.9 0.15 0.5</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_17_Collision_9'>
+        <geometry>
+          <box>
+            <size>0.9 0.15 0.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-0.585848 0 2.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_17_Visual_10'>
+        <pose frame=''>-0.585848 0 2.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.9 0.15 0.5</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_17_Collision_10'>
+        <geometry>
+          <box>
+            <size>0.9 0.15 0.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-0.585848 0 2.25 0 -0 0</pose>
+      </collision>
+    </link>
+  
+   <include>
+	<pose frame=''>10.018000 -0.585848 0 0 -0 1.5708</pose>
+	<uri>model://door_3d</uri>
+  </include>
+
+ <include>
+	<pose frame=''>10.031300 -5.84369 0 0 -0 1.5708</pose>
+	<uri>model://window_broken</uri>
+  </include>
+
+ <include>
+	<pose frame=''>10.031300 6.71777 0 0 -0 1.5708</pose>
+	<uri>model://window</uri>
+  </include>
+
+    <link name='Wall_19'>
+      <pose frame=''>-0 9.925 0 0 -0 3.14159</pose>
+      <visual name='Wall_19_Visual_0'>
+        <pose frame=''>-7.12533 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>5.96188 0.15 2.5</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_19_Collision_0'>
+        <geometry>
+          <box>
+            <size>5.96188 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-7.12533 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_19_Visual_1'>
+        <pose frame=''>2.98094 0 0.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>14.2507 0.15 0.5</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_19_Collision_1'>
+        <geometry>
+          <box>
+            <size>14.2507 0.15 0.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>2.98094 0 0.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_19_Visual_2'>
+        <pose frame=''>0.326454 0 1.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>7.34169 0.15 2</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_19_Collision_2'>
+        <geometry>
+          <box>
+            <size>7.34169 0.15 2</size>
+          </box>
+        </geometry>
+        <pose frame=''>0.326454 0 1.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_19_Visual_3'>
+        <pose frame=''>7.45179 0 1.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>5.30898 0.15 2</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_19_Collision_3'>
+        <geometry>
+          <box>
+            <size>5.30898 0.15 2</size>
+          </box>
+        </geometry>
+        <pose frame=''>7.45179 0 1.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_19_Visual_4'>
+        <pose frame=''>-3.74439 0 1.9 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.8 0.15 1.2</size>
+          </box>
+        </geometry>
+             	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_19_Collision_4'>
+        <geometry>
+          <box>
+            <size>0.8 0.15 1.2</size>
+          </box>
+        </geometry>
+        <pose frame=''>-3.74439 0 1.9 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_19_Visual_5'>
+        <pose frame=''>4.3973 0 1.9 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.8 0.15 1.2</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_19_Collision_5'>
+        <geometry>
+          <box>
+            <size>0.8 0.15 1.2</size>
+          </box>
+        </geometry>
+        <pose frame=''>4.3973 0 1.9 0 -0 0</pose>
+      </collision>
+    </link>
+
+ <include>
+	<pose frame=''>3.744390 9.925 0 0 0 3.141591</pose>
+	<uri>model://window_broken</uri>
+  </include>
+
+ <include>
+	<pose frame=''>-4.3973 9.925 0 0 0 3.141591</pose>
+	<uri>model://window</uri>
+  </include>
+
+
+    <link name='Wall_2'>
+      <pose frame=''>-10.0187 -6.75 0 0 0 -1.5708</pose>
+      <visual name='Wall_2_Visual_0'>
+        <pose frame=''>-1.06854 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>4.36293 0.15 2.5</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_2_Collision_0'>
+        <geometry>
+          <box>
+            <size>4.36293 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-1.06854 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_2_Visual_1'>
+        <pose frame=''>2.18147 0 0.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2.13707 0.15 0.5</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_2_Collision_1'>
+        <geometry>
+          <box>
+            <size>2.13707 0.15 0.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>2.18147 0 0.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_2_Visual_2'>
+        <pose frame=''>2.58147 0 1.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.33707 0.15 2</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_2_Collision_2'>
+        <geometry>
+          <box>
+            <size>1.33707 0.15 2</size>
+          </box>
+        </geometry>
+        <pose frame=''>2.58147 0 1.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_2_Visual_3'>
+        <pose frame=''>1.51293 0 1.9 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.8 0.15 1.2</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_2_Collision_3'>
+        <geometry>
+          <box>
+            <size>0.8 0.15 1.2</size>
+          </box>
+        </geometry>
+        <pose frame=''>1.51293 0 1.9 0 -0 0</pose>
+      </collision>
+    </link>
+
+
+ <include>
+	<pose frame=''>-10.0187 -8.26293 0 0 0 -1.57</pose>
+	<uri>model://window_broken</uri>
+  </include>
+
+
+    <link name='Wall_20'>
+      <pose frame=''>-10.018 3.125 0 0 0 -1.5708</pose>
+      <visual name='Wall_20_Visual_0'>
+        <pose frame=''>-5.73803 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2.27394 0.15 2.5</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_20_Collision_0'>
+        <geometry>
+          <box>
+            <size>2.27394 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-5.73803 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_20_Visual_1'>
+        <pose frame=''>1.58697 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>10.5761 0.15 2.5</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_20_Collision_1'>
+        <geometry>
+          <box>
+            <size>10.5761 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>1.58697 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_20_Visual_2'>
+        <pose frame=''>-4.15106 0 2.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.9 0.15 0.5</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_20_Collision_2'>
+        <geometry>
+          <box>
+            <size>0.9 0.15 0.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-4.15106 0 2.25 0 -0 0</pose>
+      </collision>
+    </link>
+
+   <include>
+	<pose frame=''>-10.00500 7.27606 0 0 -0 -1.5708</pose>
+	<uri>model://door_3d</uri>
+  </include>
+
+
+    <link name='Wall_22'>
+      <collision name='Wall_22_Collision'>
+        <geometry>
+          <box>
+            <size>3 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_22_Visual'>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>3 0.15 2.5</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose frame=''>-0.163956 0.04737 0 0 -0 3.14159</pose>
+    </link>
+    <link name='Wall_23'>
+      <collision name='Wall_23_Collision'>
+        <geometry>
+          <box>
+            <size>2.25 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_23_Visual'>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2.25 0.15 2.5</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose frame=''>-1.58896 1.09737 0 0 -0 1.5708</pose>
+    </link>
+    <link name='Wall_24'>
+      <collision name='Wall_24_Collision'>
+        <geometry>
+          <box>
+            <size>3 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_24_Visual'>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>3 0.15 2.5</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose frame=''>-0.163956 2.14737 0 0 -0 0</pose>
+    </link>
+    <link name='Wall_25'>
+      <collision name='Wall_25_Collision'>
+        <geometry>
+          <box>
+            <size>2.25 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_25_Visual'>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2.25 0.15 2.5</size>
+          </box>
+        </geometry>
+        	<material>
+          <script>
+            <uri>model://office_env_w/materials/scripts</uri>
+            <uri>model://office_env_w/materials/textures</uri>
+            <name>wall_white</name>
+          </script>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose frame=''>1.26104 1.09737 0 0 0 -1.5708</pose>
+    </link>
+    <static>1</static>
+  </model>
+</sdf>

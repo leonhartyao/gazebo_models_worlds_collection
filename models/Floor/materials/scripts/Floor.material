@@ -1,0 +1,15 @@
+material floor
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture cl2.jpg
+	scale 0.1 0.1
+      }
+    }
+  }
+}
+

@@ -1,0 +1,15 @@
+material door_handle
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture silver_door.jpg
+	scale 1 1
+      }
+    }
+  }
+}
+

@@ -1,10 +1,10 @@
 <?xml version='1.0'?>
 <sdf version='1.4'>
-  <model name="dronerace gate 2018">
+  <model name="dronerace_gate_2018">
     <static>true</static>
     <pose>0 0 0 0 0 0</pose>
 
-    <link name="dronerace gate 2018">
+    <link name="dronerace_gate_2018">
       <visual name="gate">
         <geometry>
           <mesh>
