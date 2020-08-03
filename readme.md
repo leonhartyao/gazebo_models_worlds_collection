@@ -10,6 +10,9 @@ export GAZEBO_MODEL_PATH=<path to this repo>/models:$GAZEBO_MODEL_PATH
 where `<path to this repo>` should be replaced by the path of this repository.
 It is also possible to add model path in the Gazebo Client GUI.
 
+## Preview
+Gazebo screenshots are provided in `screenshots` to preview the worlds.
+
 ## Exporting sketchup to Gazebo
 Exporting sketchup (`*.skp`) to Gazebo is not straightforward, it is often necessary to fix the collada file to make the model render correctly. This is an overview of the most common fixes that were used to create the models in this repository:
 
@@ -52,3 +55,11 @@ See the cyberzoo model as an example.
 
 ##### Incorrect smooth shading
 Incorrect smoothing can sometimes be fixed by removing the `<input semantic="NORMAL" source="..."/>` lines from the `.dae` file.
+
+## Source
+ - [3DGEMS](http://data.nvision2.eecs.yorku.ca/3DGEMS/)
+ - [RotorS](https://github.com/ethz-asl/rotors_simulator)
+ - [TU Delft](https://github.com/tudelft/gazebo_models)
+ - [ARTI-Robots](https://github.com/ARTI-Robots/gazebo_worlds)
+ - [Clearpath Robotics](https://github.com/clearpathrobotics/cpr_gazebo)
+
