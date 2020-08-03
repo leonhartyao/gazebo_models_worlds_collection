@@ -34,12 +34,12 @@
               <size>75</size>
             </texture>
             <texture>
-	      <diffuse>file://yosemite/materials/textures/texture_forest.png</diffuse>
+	      <diffuse>model://yosemite/materials/textures/texture_forest.png</diffuse>
               <normal>file://media/materials/textures/flat_normal.png</normal>
               <size>100</size>
             </texture>
             <texture>
-              <diffuse>file://yosemite/materials/textures/texture_mountains.png</diffuse>
+              <diffuse>model://yosemite/materials/textures/texture_mountains.png</diffuse>
               <normal>file://media/materials/textures/flat_normal.png</normal>
               <size>50</size>
             </texture>
