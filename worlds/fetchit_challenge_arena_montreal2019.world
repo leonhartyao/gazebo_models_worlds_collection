@@ -1,0 +1,163 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <world name="default">
+
+    <include>
+      <uri>model://ground_plane</uri>
+      <pose>0 0 -0.005 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://fetchit_arena</uri>
+      <name>fetchit_arena1</name>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://fetchit_table_em</uri>
+      <name>fetchit_table_em1</name>
+      <pose>1.28714 -0.565 0.0 0 0 -1.57</pose>
+    </include>
+
+    <include>
+      <uri>model://fetchit_table_sick</uri>
+      <name>fetchit_table_sick1</name>
+      <pose>-0.305 1.28179 0.0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://fetchit_table_fetch</uri>
+      <name>fetchit_table_fetch1</name>
+      <pose>-0.135 -1.28849 0.0 0 0 3.1416</pose>
+    </include>
+
+    <include>
+      <uri>model://fetchit_table_theconstruct</uri>
+      <name>fetchit_table_theconstruct1</name>
+      <pose>0.815 1.28179 0.0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://caddy_green</uri>
+      <name>caddy_green1</name>
+      <pose>0.168355 -1.20441 0.826729 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://caddy_red</uri>
+      <name>caddy_red1</name>
+      <pose>-0.113059 -1.20441 0.826729 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://caddy_yellow</uri>
+      <name>caddy_yellow1</name>
+      <pose>-0.414898 -1.20441 0.826729 0 0 0</pose>
+    </include>
+
+
+
+
+    <include>
+      <uri>model://50mmbin</uri>
+      <name>50mmbin</name>
+      <pose>1.1789 -0.69649 0.787679 0 0 -1.57</pose>
+    </include>
+
+    <include>
+      <uri>model://gearbox_bolt_grey</uri>
+      <name>gearbox_bolt_grey1</name>
+      <pose>1.19481 -0.727808 0.802789 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://gearbox_bolt_grey</uri>
+      <name>gearbox_bolt_grey2</name>
+      <pose>1.11789 -0.669909 0.802789 0 0 0</pose>
+    </include>
+
+
+    <include>
+      <uri>model://100mmbin</uri>
+      <name>100mmbin1</name>
+      <pose>-0.301542 1.17623 0.787679 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://gearbox_bottom_grey</uri>
+      <name>gearbox_bottom_grey1</name>
+      <pose>-0.319115 1.21719 0.864438 0 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri>model://gearbox_top_grey</uri>
+      <name>gearbox_top_grey1</name>
+      <pose>-0.323154 1.15124 0.826531 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://dropoff_box</uri>
+      <name>dropoff_box1</name>
+      <pose>-1.15754 1.04702 0 0 0 0</pose>
+    </include>
+
+    <light name='user_point_light_0' type='point'>
+      <pose frame=''>4.0 4.0 3.5 0 0 0</pose>
+      <diffuse>0.7 0.7 0.7 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>10</range>
+        <constant>1.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 -1</direction>
+    </light>
+
+    <light name='user_point_light_1' type='point'>
+      <pose frame=''>-4.0 4.0 3.5 0 0 0</pose>
+      <diffuse>0.7 0.7 0.7 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>10</range>
+        <constant>1.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 -1</direction>
+    </light>
+
+    <light name='user_point_light_2' type='point'>
+      <pose frame=''>-4.0 -4.0 3.5 0 0 0</pose>
+      <diffuse>0.7 0.7 0.7 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>10</range>
+        <constant>1.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 -1</direction>
+    </light>
+
+
+    <light name='user_point_light_3' type='point'>
+      <pose frame=''>4.0 -4.0 3.5 0 0 0</pose>
+      <diffuse>0.7 0.7 0.7 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>10</range>
+        <constant>1.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 -1</direction>
+    </light>
+
+
+  </world>
+</sdf>

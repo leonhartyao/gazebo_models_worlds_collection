@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<sdf version='1.4'>
+  <model name="caddy_orange">
+      <static>0</static>
+      <link name='link'>
+        <inertial>
+          <mass>0.0680389</mass>
+          <inertia>
+            <ixx>0.00040636575898</ixx>
+            <ixy>0.000000</ixy>
+            <ixz>0.000000</ixz>
+            <iyy>0.00040636575898</iyy>
+            <iyz>0.000000</iyz>
+            <izz>0.000625974918075</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://caddy_orange/meshes/Romanoff_Small_Utility_Caddy_cof.stl</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>1.0</mu>
+                <mu2>1.0</mu2>
+              </ode>
+            </friction>
+          </surface>
+        </collision>
+        
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://caddy_orange/meshes/Romanoff_Small_Utility_Caddy_cof_orange.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <velocity_decay>
+          <linear>0.000000</linear>
+          <angular>0.000000</angular>
+        </velocity_decay>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+        <gravity>1</gravity>        
+      </link>   
+  </model>
+</sdf>
