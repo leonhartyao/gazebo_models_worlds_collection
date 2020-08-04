@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<sdf version='1.4'>
+  <model name="fetchit_simple_env">
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://fetchit_simple_env/meshes/fetchit_env_barebones_v3.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <velocity_decay>
+          <linear>0.000000</linear>
+          <angular>0.000000</angular>
+        </velocity_decay>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+        <gravity>1</gravity>        
+      </link>   
+  </model>
+</sdf>

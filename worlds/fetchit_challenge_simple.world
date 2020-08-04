@@ -1,0 +1,153 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <world name="default">
+
+
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+
+    <include>
+      <uri>model://fetchit_simple_env</uri>
+      <name>fetchit_simple_env1</name>
+      <pose>0 0 0.005 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://caddy_green</uri>
+      <name>caddy_green1</name>
+      <pose>1.109024 -0.094681 0.814290 0 0 0</pose>
+    </include>
+
+    <!-- GearBox Assembly Parts -->
+    <include>
+      <uri>model://gearbox_bolt</uri>
+      <name>gearbox_bolt1</name>
+      <pose>0.104571 1.127 0.81 0 0 0</pose>
+    </include>
+    
+    <include>
+      <uri>model://gearbox_bolt</uri>
+      <name>gearbox_bolt2</name>
+      <pose>0.109393 1.127 0.81 0 0 0</pose>
+    </include>
+    
+    <include>
+      <uri>model://gearbox_bottom</uri>
+      <name>gearbox_bottom1</name>
+      <pose>-1.0 -0.62 0.877855 0 0 1.57</pose>
+    </include>
+    
+    <include>
+      <uri>model://gearbox_top</uri>
+      <name>gearbox_top1</name>
+      <pose>-1.0 -0.62 0.977855 0 0 1.57</pose>
+    </include>
+
+    
+    <!-- Pick Places -->
+    <include>
+      <uri>model://fetchit_table</uri>
+      <name>screw_bin_pick_station</name>
+      <pose>0.04929 1.22163 0.0 0 0 0</pose>
+    </include>
+
+     <include>
+      <uri>model://fetchit_table</uri>
+      <name>kit_station</name>
+      <pose>1.23491 0.087 0.0 0 0 -1.57</pose>
+    </include>
+
+    <include>
+      <uri>model://fetchit_table</uri>
+      <name>gearbox_pick_station</name>
+      <pose>-1.03 -0.60962 0.0 0 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri>model://dropoff_box</uri>
+      <name>dropoff_box1</name>
+      <pose>-1.05471 0.54301 0.011069 0 0 0</pose>
+    </include>
+
+
+    <include>
+      <uri>model://100mmbin</uri>
+      <name>100mmbin1</name>
+      <pose>-1.0 -0.623425 0.801 0 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri>model://50mmbin</uri>
+      <name>50mmbin</name>
+      <pose>0.097790 1.2 0.801 0 0 0</pose>
+    </include>
+
+    <!-- Lights -->
+    <!--
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    -->
+
+    <light name='user_point_light_0' type='point'>
+      <pose frame=''>1.0 1.0 3.5 0 0 0</pose>
+      <diffuse>0.7 0.7 0.7 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>10</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 -1</direction>
+    </light>
+
+    <light name='user_point_light_1' type='point'>
+      <pose frame=''>-1.0 1.0 3.5 0 0 0</pose>
+      <diffuse>0.7 0.7 0.7 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>10</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 -1</direction>
+    </light>
+
+    <light name='user_point_light_2' type='point'>
+      <pose frame=''>-1.0 -1.0 3.5 0 0 0</pose>
+      <diffuse>0.7 0.7 0.7 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>10</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 -1</direction>
+    </light>
+
+
+    <light name='user_point_light_3' type='point'>
+      <pose frame=''>1.0 -1.0 3.5 0 0 0</pose>
+      <diffuse>0.7 0.7 0.7 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>10</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 -1</direction>
+    </light>
+
+
+  </world>
+</sdf>

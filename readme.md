@@ -62,4 +62,5 @@ Incorrect smoothing can sometimes be fixed by removing the `<input semantic="NOR
  - [TU Delft](https://github.com/tudelft/gazebo_models)
  - [ARTI-Robots](https://github.com/ARTI-Robots/gazebo_worlds)
  - [Clearpath Robotics](https://github.com/clearpathrobotics/cpr_gazebo)
+ - [Fetch Robotics](https://github.com/fetchrobotics/fetch_gazebo)
 
