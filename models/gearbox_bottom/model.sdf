@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<sdf version='1.4'>
+  <model name="gearbox_bottom">
+      <static>0</static>
+      <link name='link'>
+        <inertial>
+          <pose>0 0 0.0261852 0 0 0</pose>
+          <mass>0.3705614</mass>
+          <inertia>
+            <ixx>0.000131217258397</ixx>
+            <ixy>0.000000</ixy>
+            <ixz>0.000000</ixz>
+            <iyy>0.000981017941434</iyy>
+            <iyz>0.000000</iyz>
+            <izz>0.000942847952626</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://gearbox_bottom/meshes/gearbox_bottom_simple.stl</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>30.0</mu>
+                <mu2>30.0</mu2>
+              </ode>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://gearbox_bottom/meshes/gearBoxBottom_v1.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <velocity_decay>
+          <linear>0.000000</linear>
+          <angular>0.000000</angular>
+        </velocity_decay>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+        <gravity>1</gravity>        
+      </link>   
+  </model>
+</sdf>

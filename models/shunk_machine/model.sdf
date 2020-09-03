@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<sdf version='1.4'>
+  <model name="shunk_machine">
+      <static>1</static>
+      <link name='link'>
+        <inertial>
+          <mass>0.0676998</mass>
+          <inertia>
+            <ixx>6.36046210549e-06</ixx>
+            <ixy>0.000000</ixy>
+            <ixz>0.000000</ixz>
+            <iyy>7.70974202419e-05</iyy>
+            <iyz>0.000000</iyz>
+            <izz>7.84820892159e-05</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://shunk_machine/meshes/shunk_machine_nodoor_nolathe_collisions_simple.stl</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>30.0</mu>
+                <mu2>30.0</mu2>
+              </ode>
+            </friction>
+            <contact>
+              <ode>
+                <soft_cfm>0</soft_cfm>
+    	          <soft_erp>0.2</soft_erp>
+    	          <kp>1e+13</kp>
+    	          <kd>1</kd>
+    	          <max_vel>0.01</max_vel>
+    	          <min_depth>0</min_depth>
+              </ode>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://shunk_machine/meshes/shunk_machine_door.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <velocity_decay>
+          <linear>0.000000</linear>
+          <angular>0.000000</angular>
+        </velocity_decay>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+        <gravity>1</gravity>        
+      </link>   
+  </model>
+</sdf>

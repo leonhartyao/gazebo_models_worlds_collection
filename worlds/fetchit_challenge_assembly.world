@@ -1,0 +1,150 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <world name="default">
+
+
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+
+    <!-- GearBox Assembly Parts -->
+    <!-- Blue -->
+    <include>
+      <uri>model://gearbox_bolt_blue</uri>
+      <name>gearbox_bolt_blue1</name>
+      <pose>0.1 0.0 0.1 0 0 0</pose>
+    </include>
+    
+    <include>
+      <uri>model://gearbox_bolt_blue</uri>
+      <name>gearbox_bolt_blue2</name>
+      <pose>0.1 0.1 0.1 0 0 0</pose>
+    </include>
+    
+    <include>
+      <uri>model://gearbox_bottom_blue</uri>
+      <name>gearbox_bottom_blue</name>
+      <pose>0.1 0.2 0.1 0 0 0</pose>
+    </include>
+    
+    <include>
+      <uri>model://gearbox_top_blue</uri>
+      <name>gearbox_top_blue1</name>
+      <pose>0.1 0.3 0.1 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://gearbox_largegear_blue</uri>
+      <name>gearbox_largegear_blue1</name>
+      <pose>0.1 0.4 0.1 0 0 0</pose>
+    </include>
+
+        <include>
+      <uri>model://gearbox_smallgear_blue</uri>
+      <name>gearbox_smallgear_blue1</name>
+      <pose>0.1 0.5 0.1 0 0 0</pose>
+    </include>
+
+    <!-- Grey -->
+    <include>
+      <uri>model://gearbox_bolt_grey</uri>
+      <name>gearbox_bolt_grey1</name>
+      <pose>0.6 0.0 0.1 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://gearbox_bolt_grey</uri>
+      <name>gearbox_bolt_grey2</name>
+      <pose>0.6 0.1 0.1 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://gearbox_bottom_grey</uri>
+      <name>gearbox_bottom_grey</name>
+      <pose>0.6 0.2 0.1 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://gearbox_top_grey</uri>
+      <name>gearbox_top_grey1</name>
+      <pose>0.6 0.3 0.1 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://gearbox_largegear_grey</uri>
+      <name>gearbox_largegear_grey1</name>
+      <pose>0.6 0.4 0.1 0 0 0</pose>
+    </include>
+
+        <include>
+      <uri>model://gearbox_smallgear_grey</uri>
+      <name>gearbox_smallgear_grey1</name>
+      <pose>0.6 0.5 0.1 0 0 0</pose>
+    </include>
+
+    
+
+    <!-- Lights -->
+
+
+    <light name='user_point_light_0' type='point'>
+      <pose frame=''>1.0 1.0 3.5 0 0 0</pose>
+      <diffuse>0.7 0.7 0.7 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>10</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 -1</direction>
+    </light>
+
+    <light name='user_point_light_1' type='point'>
+      <pose frame=''>-1.0 1.0 3.5 0 0 0</pose>
+      <diffuse>0.7 0.7 0.7 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>10</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 -1</direction>
+    </light>
+
+    <light name='user_point_light_2' type='point'>
+      <pose frame=''>-1.0 -1.0 3.5 0 0 0</pose>
+      <diffuse>0.7 0.7 0.7 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>10</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 -1</direction>
+    </light>
+
+
+    <light name='user_point_light_3' type='point'>
+      <pose frame=''>1.0 -1.0 3.5 0 0 0</pose>
+      <diffuse>0.7 0.7 0.7 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>10</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 -1</direction>
+    </light>
+
+
+  </world>
+</sdf>

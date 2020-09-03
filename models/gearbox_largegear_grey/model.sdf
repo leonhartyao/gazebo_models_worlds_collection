@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<sdf version='1.4'>
+  <model name="gearbox_largegear_grey">
+      <static>0</static>
+      <link name='link'>
+        <inertial>
+          <pose>0 0 0.057592 0 0 0</pose>
+          <mass>0.2380243</mass>
+          <inertia>
+            <ixx>0.000343121171301</ixx>
+            <ixy>0.000000</ixy>
+            <ixz>0.000000</ixz>
+            <iyy>0.000343121171301</iyy>
+            <iyz>0.000000</iyz>
+            <izz>0.000159916906863</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://gearbox_largegear_grey/meshes/largeGear_v5.stl</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>30.0</mu>
+                <mu2>30.0</mu2>
+              </ode>
+            </friction>
+            <contact>
+              <ode>
+                <soft_cfm>0</soft_cfm>
+    	          <soft_erp>0.2</soft_erp>
+    	          <kp>1e+13</kp>
+    	          <kd>1</kd>
+    	          <max_vel>0.01</max_vel>
+    	          <min_depth>0</min_depth>
+              </ode>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://gearbox_largegear_grey/meshes/largeGear_grey.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <velocity_decay>
+          <linear>0.000000</linear>
+          <angular>0.000000</angular>
+        </velocity_decay>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+        <gravity>1</gravity>        
+      </link>   
+  </model>
+</sdf>
