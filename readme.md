@@ -10,6 +10,11 @@ export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:<path to this repo>/models
 ```
 It is also possible to add model path in the Gazebo Client GUI.
 
+Adding `worlds` directory to the `GAZEBO_RESOURCE_PATH` environment variable allows you to specify the world without absolute path. To do so, add the following line to `~/.bashrc`:
+```
+export GAZEBO_RESOURCE_PATH=$GAZEBO_RESOURCE_PATH:<path to this repo>/worlds
+```
+
 ## Preview
 Gazebo screenshots are provided in `screenshots` to preview the worlds.
 
@@ -62,4 +67,5 @@ Incorrect smoothing can sometimes be fixed by removing the `<input semantic="NOR
  - [TU Delft](https://github.com/tudelft/gazebo_models)
  - [ARTI-Robots](https://github.com/ARTI-Robots/gazebo_worlds)
  - [Clearpath Robotics](https://github.com/clearpathrobotics/cpr_gazebo)
+ - [Fetch Robotics](https://github.com/fetchrobotics/fetch_gazebo)
 
