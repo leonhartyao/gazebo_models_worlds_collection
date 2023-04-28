@@ -87,10 +87,10 @@
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
     <state world_name='default'>
-      <sim_time>13402 474000000</sim_time>
-      <real_time>5160 19079072</real_time>
-      <wall_time>1682682542 338763135</wall_time>
-      <iterations>5123597</iterations>
+      <sim_time>13504 618000000</sim_time>
+      <real_time>102 279040878</real_time>
+      <wall_time>1682683616 972383026</wall_time>
+      <iterations>102144</iterations>
       <model name='book_1'>
         <pose>4.53796 -3.57288 0.95783 3.13964 -1.15052 1.57019</pose>
         <scale>1 1 1</scale>
@@ -332,16 +332,16 @@
         </link>
       </model>
       <model name='bottle_white_wine_clone'>
-        <pose>4.22194 2.01399 0.783099 0 -0 0</pose>
+        <pose>4.10367 1.92391 0.783099 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link_24'>
-          <pose>4.22312 2.01515 0.777014 0 -0 0</pose>
+          <pose>4.10485 1.92508 0.777014 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_26'>
-          <pose>4.22312 2.01515 0.777014 0 -0 0</pose>
+          <pose>4.10485 1.92508 0.777014 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -566,10 +566,10 @@
         </link>
       </model>
       <model name='cup_blue'>
-        <pose>4.24648 1.52681 0.767133 0 -0 0</pose>
+        <pose>4.09385 1.52681 0.767133 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link_13'>
-          <pose>4.24648 1.52681 0.767133 0 -0 0</pose>
+          <pose>4.09385 1.52681 0.767133 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -586,10 +586,10 @@
         </link>
       </model>
       <model name='cup_glass_hex_clone'>
-        <pose>4.38721 1.66585 0.770526 0 -0 0</pose>
+        <pose>4.15193 1.66585 0.770526 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link_17'>
-          <pose>4.38721 1.66585 0.770526 0 -0 0</pose>
+          <pose>4.15193 1.66585 0.770526 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -650,16 +650,16 @@
         </link>
       </model>
       <model name='cup_yellow_clone'>
-        <pose>4.24486 1.79534 0.772489 0 -0 0</pose>
+        <pose>4.09518 1.79534 0.772489 0 -0 0.903851</pose>
         <scale>1 1 1</scale>
         <link name='link_12'>
-          <pose>4.24461 1.79519 0.77251 0 -0 0</pose>
+          <pose>4.09514 1.79505 0.77251 0 -0 0.903851</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_13'>
-          <pose>4.19986 1.79519 0.752489 0 -0 0</pose>
+          <pose>4.06746 1.75989 0.752489 0 -0 0.903851</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -1310,10 +1310,10 @@
         </link>
       </model>
       <model name='mouse_clone'>
-        <pose>4.17622 2.39577 0.770347 0 -0 0.046645</pose>
+        <pose>4.18159 2.28083 0.770347 0 -0 0.046645</pose>
         <scale>1 1 1</scale>
         <link name='link_31'>
-          <pose>4.17622 2.39577 0.770347 0 -0 0.046645</pose>
+          <pose>4.18159 2.28083 0.770347 0 -0 0.046645</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -1514,7 +1514,7 @@
         </link>
       </model>
       <model name='office_small_1'>
-        <pose>-0.859002 -0.060302 0 0 -0 0</pose>
+        <pose>-0.859002 -0.0603 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <model name='Floor'>
           <pose>-0.859002 -0.060303 0 0 -0 0</pose>
@@ -1672,34 +1672,34 @@
         </link>
       </model>
       <model name='pencil_clone'>
-        <pose>4.1171 2.19272 0.76551 0 -0 0</pose>
+        <pose>4.1171 2.10498 0.76551 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link_17'>
-          <pose>-0.5541 4.26153 -1.7177 0 -0 0</pose>
+          <pose>-0.5541 4.17379 -1.7177 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_18'>
-          <pose>-0.5541 4.26153 -1.7177 0 -0 0</pose>
+          <pose>-0.5541 4.17379 -1.7177 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_19'>
-          <pose>-0.5541 4.26153 -1.7177 0 -0 0</pose>
+          <pose>-0.5541 4.17379 -1.7177 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_20'>
-          <pose>-0.5541 4.26153 -1.7177 0 -0 0</pose>
+          <pose>-0.5541 4.17379 -1.7177 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_21'>
-          <pose>-0.5541 4.26153 -1.7177 0 -0 0</pose>
+          <pose>-0.5541 4.17379 -1.7177 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -13232,7 +13232,7 @@
     </model>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose>1.04429 0.976493 3.47489 0 0.749795 0.35688</pose>
+        <pose>2.27688 1.3232 2.38403 0 0.749795 0.35688</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
