@@ -14247,7 +14247,7 @@
         </collision>
         <enable_wind>0</enable_wind>
       </link>
-      <static>1</static>
+      <static>0</static>
       <allow_auto_disable>1</allow_auto_disable>
       <pose>3.90246 1.79534 0.526305 0 -0 0</pose>
     </model>
@@ -14356,7 +14356,7 @@
         <gravity>1</gravity>
         <enable_wind>0</enable_wind>
       </link>
-      <static>1</static>
+      <static>0</static>
       <allow_auto_disable>1</allow_auto_disable>
       <pose>4.22194 2.01399 0.704839 0 -0 0</pose>
     </model>
@@ -14410,7 +14410,7 @@
         <gravity>1</gravity>
         <enable_wind>0</enable_wind>
       </link>
-      <static>1</static>
+      <static>0</static>
       <allow_auto_disable>1</allow_auto_disable>
       <pose>4.17622 2.39577 0.770347 0 0 -1.45448</pose>
     </model>
@@ -14670,7 +14670,7 @@
         <gravity>1</gravity>
         <enable_wind>0</enable_wind>
       </link>
-      <static>1</static>
+      <static>0</static>
       <allow_auto_disable>1</allow_auto_disable>
       <pose>4.1171 2.19272 0.76551 0 -0 0</pose>
     </model>
@@ -14724,7 +14724,7 @@
         <gravity>1</gravity>
         <enable_wind>0</enable_wind>
       </link>
-      <static>1</static>
+      <static>0</static>
       <allow_auto_disable>1</allow_auto_disable>
       <pose>4.38721 1.66585 0.697228 0 -0 0</pose>
     </model>
