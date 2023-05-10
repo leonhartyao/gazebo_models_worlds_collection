@@ -4,6 +4,11 @@
     <include>
       <uri>model://sun</uri>
     </include>
+    <gui>
+        <camera name="gzclient_camera">
+            <pose>0.0 0.257470 1.684572 0.000001 0.419644 0.848197</pose>
+        </camera>
+    </gui>
 
     <!-- Ground Plane -->
     <include>
@@ -12,7 +17,7 @@
 
     <!-- Table -->
     <model name="cafe_table">
-      <pose>0 0 0.0 0 0 0</pose>
+      <pose>0.64 0.0 0.0 0 0 0</pose>
       <include>
         <uri>model://cafe_table</uri>
       </include>
@@ -20,7 +25,7 @@
 
     <!-- Apple -->
     <model name="apple">
-      <pose>0.0 0 1.55 0 0 0</pose>
+      <pose>0.3 -0.05 0.825 0 0 0</pose>
       <link name="link">
         <collision name="collision">
           <geometry>
@@ -62,19 +67,88 @@
       </link>
     </model>
 
-  <model name="plastic_cup">
-    <pose>0.15 0 1.55 0 0 0</pose>
+
+
+  <model name="bottle_red_wine">
+     <pose>1.0 2.0 0.0 0 -0 0</pose>
+       <static>0</static>
+      <link name='link_22'>
+        <pose>0 0 0.002754 0 -0 0</pose>
+                <inertial>
+          <mass>0.0599</mass>
+          <inertia>
+            <ixx>0.0001</ixx>
+            <ixy>0.0</ixy>
+            <ixz>0.0</ixz>
+            <iyy>0.0001</iyy>
+            <iyz>0.0</iyz>
+            <izz>0.0001</izz>
+          </inertia>
+        </inertial>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://bottle_red_wine/meshes/bottle.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <lighting>1</lighting>
+            <ambient>0.215 0 0.305 1</ambient>
+            <diffuse>0.215 0 0.305 1</diffuse>
+            <specular>0.01 0.01 0.01 1</specular>
+            <emissive>0 0 0 1</emissive>
+            <shader type='vertex'>
+              <normal_map>__default__</normal_map>
+            </shader>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0.4</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://bottle_red_wine/meshes/bottle.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+
+
+   <model name="plastic_cup">
+    <pose>0.3066 -0.195 0.782206 0.0 0.00 0.0</pose>
       <link name="link">
         <pose>0 0 0.065 0 0 0</pose>
         <inertial>
           <mass>0.0599</mass>
           <inertia>
-            <ixx>0.0003028961527030333</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>0.0003028961527030333</iyy>
-            <iyz>0</iyz>
-            <izz>3.2876352372798436e-05</izz>
+            <ixx>0.0001</ixx>
+            <ixy>0.0</ixy>
+            <ixz>0.0</ixz>
+            <iyy>0.0001</iyy>
+            <iyz>0.0</iyz>
+            <izz>0.0001</izz>
           </inertia>
         </inertial>
 
@@ -115,7 +189,7 @@
           <material>
             <script>
               <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/GreyTransparent</name>
+              <name>Gazebo/Green</name>
             </script>
           </material>
         </visual>
