@@ -4,17 +4,11 @@
     <include>
       <uri>model://sun</uri>
     </include>
-
-
-
-        <gui>
-            <camera name="gzclient_camera">
-                <pose>2.731020 0.257470 1.684572 0.000001 0.419644 0.848197</pose>
-            </camera>
-        </gui>
-
-
-
+    <gui>
+        <camera name="gzclient_camera">
+            <pose>0.0 0.257470 1.684572 0.000001 0.419644 0.848197</pose>
+        </camera>
+    </gui>
 
     <!-- Ground Plane -->
     <include>
@@ -23,7 +17,7 @@
 
     <!-- Table -->
     <model name="cafe_table">
-      <pose>4.4 2.1 0.0 0 0 0</pose>
+      <pose>0.64 0.0 0.0 0 0 0</pose>
       <include>
         <uri>model://cafe_table</uri>
       </include>
@@ -31,7 +25,7 @@
 
     <!-- Apple -->
     <model name="apple">
-      <pose>4.04 2.26 0.82 0 0 0</pose>
+      <pose>0.3 -0.05 0.825 0 0 0</pose>
       <link name="link">
         <collision name="collision">
           <geometry>
@@ -76,7 +70,7 @@
 
 
   <model name="bottle_red_wine">
-     <pose>4.03318 1.74527 0.7884360 0 -0 0</pose>
+     <pose>1.0 2.0 0.0 0 -0 0</pose>
        <static>0</static>
       <link name='link_22'>
         <pose>0 0 0.002754 0 -0 0</pose>
@@ -143,7 +137,7 @@
 
 
    <model name="plastic_cup">
-    <pose>4.033183 1.945270 0.782206 0.020262 0.003568 2.815381</pose>
+    <pose>0.3066 -0.195 0.782206 0.0 0.00 0.0</pose>
       <link name="link">
         <pose>0 0 0.065 0 0 0</pose>
         <inertial>
