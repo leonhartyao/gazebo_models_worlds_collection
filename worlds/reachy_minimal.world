@@ -6,7 +6,7 @@
     </include>
     <gui>
         <camera name="gzclient_camera">
-            <pose>0.0 0.257470 1.684572 0.000001 0.419644 0.848197</pose>
+            <pose>-0.982668 -3.130052 2.464242 0.000000 0.451643 0.991645</pose>
         </camera>
     </gui>
 
@@ -155,7 +155,7 @@
         <collision name="collision">
           <geometry>
             <mesh>
-              <uri>model://plastic_cup/meshes/plastic_cup.dae</uri>
+              <uri>model://cup_blue/meshes/cup1.dae</uri>
             </mesh>
           </geometry>
           <surface>
@@ -183,15 +183,10 @@
         <visual name="visual">
           <geometry>
             <mesh>
-              <uri>model://plastic_cup/meshes/plastic_cup.dae</uri>
+              <uri>model://cup_blue/meshes/cup1.dae</uri>
             </mesh>
           </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Green</name>
-            </script>
-          </material>
+
         </visual>
 
       </link>
