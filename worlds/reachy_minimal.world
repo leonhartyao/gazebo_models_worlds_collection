@@ -81,7 +81,7 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose>0.310549 -0.394244 0.772416 0 0 0 </pose>
+      <pose>0.360549 -0.294244 0.772416 0 0 0 </pose>
     </model>
 
 
