@@ -1,5 +1,8 @@
 <sdf version="1.7">
   <world name="default">
+    <physics type="ode">
+      <real_time_update_rate>1000.0</real_time_update_rate>
+    </physics>
     <!-- A global light source -->
     <include>
       <uri>model://sun</uri>
@@ -57,11 +60,15 @@
             <contact>
               <ode>
                 <kp>2e+9</kp>
-                <kd>2e+9</kd>
+                <kd>1</kd>
               </ode>
             </contact>
             <bounce/>
             <friction>
+              <ode>
+                <mu>0.2</mu>
+                <mu2>0.2</mu2>
+              </ode>
               <torsional>
                 <ode/>
               </torsional>
@@ -69,11 +76,11 @@
             </friction>
           </surface>
         </collision>
-        <self_collide>0</self_collide>
+        <self_collide>1</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose>0.340549 -0.394244 0.772416 0 0 0 </pose>
+      <pose>0.390549 -0.394244 0.772416 0 0 0 </pose>
     </model>
 
 
