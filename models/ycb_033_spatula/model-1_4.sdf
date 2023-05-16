@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name='ycb_033_spatula'>
+    <link name='body'>
+      <inertial>
+        <mass>0.0515</mass>
+        <pose>-0.0465810443687 -0.0786057483552 0.0131891878737 0 0 0</pose>
+        <inertia>
+          <ixx>4.44129346453e-05</ixx>
+          <ixy>0.000121047271618</ixy>
+          <ixz>-1.24693874857e-06</ixz>
+          <iyy>0.000457266391943</iyy>
+          <iyz>3.58764856595e-07</iyz>
+          <izz>0.000497056490671</izz>
+        </inertia>
+      </inertial>
+      <visual name='ycb_033_spatula_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_033_spatula/meshes/textured.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='ycb_033_spatula_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_033_spatula/meshes/nontextured.stl</uri>
+          </mesh>
+        </geometry>
+        <max_contacts>10</max_contacts>
+        <surface>
+          <contact>
+            <ode>
+              <kp>1e15</kp>
+              <kd>1e13</kd>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+    </link>
+  </model>
+</sdf>

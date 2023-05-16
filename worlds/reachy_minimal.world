@@ -23,6 +23,59 @@
       </include>
     </model>
 
+     <model name='task1_shapeitem_ycb_065-c_cups_7'>
+      <link name='body'>
+        <inertial>
+          <mass>0.031</mass>
+          <pose frame=''>-0.014475 -0.064617 0.031162 0 -0 0</pose>
+          <inertia>
+            <ixx>2.28047e-05</ixx>
+            <ixy>-8.40704e-08</ixy>
+            <ixz>7.88861e-08</ixz>
+            <iyy>2.2028e-05</iyy>
+            <iyz>7.40173e-07</iyz>
+            <izz>2.07973e-05</izz>
+          </inertia>
+        </inertial>
+        <visual name='ycb_065-c_cups_visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://ycb_065-c_cups/meshes/textured.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='ycb_065-c_cups_collision'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://ycb_065-c_cups/meshes/nontextured.stl</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode>
+                <kp>2e+9</kp>
+                <kd>2e+9</kd>
+              </ode>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>0.340549 -0.394244 0.772416 0 0 0 </pose>
+    </model>
+
 
     <model name='coke_can'>
       <link name='link'>
@@ -81,8 +134,10 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose>0.360549 -0.294244 0.772416 0 0 0 </pose>
+      <pose>10.310549 -0.394244 0.772416 0 0 0 </pose>
     </model>
+
+
 
 
   </world>
