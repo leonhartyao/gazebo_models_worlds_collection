@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name='ycb_065-g_cups'>
+    <link name='body'>
+      <inertial>
+        <mass>0.019</mass>
+        <pose>0.0129346020171 0.0280948103329 0.0348743533874 0 0 0</pose>
+        <inertia>
+          <ixx>2.21435945508e-05</ixx>
+          <ixy>-1.0846492586e-07</ixy>
+          <ixz>-4.59909285305e-07</ixz>
+          <iyy>2.23081634604e-05</iyy>
+          <iyz>9.53237263038e-08</iyz>
+          <izz>2.35739334182e-05</izz>
+        </inertia>
+      </inertial>
+      <visual name='ycb_065-g_cups_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_065-g_cups/meshes/textured.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='ycb_065-g_cups_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_065-g_cups/meshes/nontextured.stl</uri>
+          </mesh>
+        </geometry>
+        <max_contacts>10</max_contacts>
+        <surface>
+          <contact>
+            <ode>
+              <kp>1e15</kp>
+              <kd>1e13</kd>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+    </link>
+  </model>
+</sdf>
