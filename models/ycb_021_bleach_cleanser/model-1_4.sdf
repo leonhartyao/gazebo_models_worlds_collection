@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name='ycb_021_bleach_cleanser'>
+    <link name='body'>
+      <inertial>
+        <mass>1.131</mass>
+        <pose>-0.017138949284 0.0115743698412 0.099697961937 0 0 0</pose>
+        <inertia>
+          <ixx>0.00492510383269</ixx>
+          <ixy>3.99367495038e-06</ixy>
+          <ixz>-0.000285046228375</ixz>
+          <iyy>0.00531114048007</iyy>
+          <iyz>2.47635981501e-06</iyz>
+          <izz>0.000910303677148</izz>
+        </inertia>
+      </inertial>
+      <visual name='ycb_021_bleach_cleanser_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_021_bleach_cleanser/meshes/textured.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='ycb_021_bleach_cleanser_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_021_bleach_cleanser/meshes/nontextured.stl</uri>
+          </mesh>
+        </geometry>
+        <max_contacts>10</max_contacts>
+        <surface>
+          <contact>
+            <ode>
+              <kp>1e15</kp>
+              <kd>1e13</kd>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+    </link>
+  </model>
+</sdf>
