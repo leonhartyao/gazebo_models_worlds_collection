@@ -1,5 +1,5 @@
 <sdf version="1.7">
-  <world name="default">
+  <world name="reachy_minimal">
     <plugin name="reachy_gazebo_gripper_glue" filename="libreachy_gazebo_gripper_glue.so"/>
     <physics type="ode">
       <real_time_update_rate>1000.0</real_time_update_rate>
